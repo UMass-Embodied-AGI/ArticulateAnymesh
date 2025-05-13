@@ -1,0 +1,536 @@
+
+---
+events:
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/work/pi_chuangg_umass_edu/xiaowen/env/partslip/share/cmake-3.31/Modules/CMakeDetermineSystem.cmake:205 (message)"
+      - "CMakeLists.txt:5 (project)"
+    message: |
+      The system is: Linux - 6.8.0-48-generic - x86_64
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/work/pi_chuangg_umass_edu/xiaowen/env/partslip/share/cmake-3.31/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "/work/pi_chuangg_umass_edu/xiaowen/env/partslip/share/cmake-3.31/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "/work/pi_chuangg_umass_edu/xiaowen/env/partslip/share/cmake-3.31/Modules/CMakeDetermineCCompiler.cmake:123 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:5 (project)"
+    message: |
+      Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+      Compiler: /modules/spack/packages/linux-ubuntu24.04-x86_64_v3/gcc-13.2.0/gcc-9.4.0-ctk4n3223pjnwfvyn6crmzo4isburta7/bin/gcc 
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      0
+      
+      
+      Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "a.out"
+      
+      The C compiler identification is GNU, found in:
+        /work/pi_chuangg_umass_edu/xiaowen/PartSLIP2/partition/cut-pursuit/build/CMakeFiles/3.31.2/CompilerIdC/a.out
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/work/pi_chuangg_umass_edu/xiaowen/env/partslip/share/cmake-3.31/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "/work/pi_chuangg_umass_edu/xiaowen/env/partslip/share/cmake-3.31/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "/work/pi_chuangg_umass_edu/xiaowen/env/partslip/share/cmake-3.31/Modules/CMakeDetermineCXXCompiler.cmake:126 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:5 (project)"
+    message: |
+      Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+      Compiler: /modules/spack/packages/linux-ubuntu24.04-x86_64_v3/gcc-13.2.0/gcc-9.4.0-ctk4n3223pjnwfvyn6crmzo4isburta7/bin/c++ 
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      0
+      
+      
+      Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "a.out"
+      
+      The CXX compiler identification is GNU, found in:
+        /work/pi_chuangg_umass_edu/xiaowen/PartSLIP2/partition/cut-pursuit/build/CMakeFiles/3.31.2/CompilerIdCXX/a.out
+      
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/work/pi_chuangg_umass_edu/xiaowen/env/partslip/share/cmake-3.31/Modules/CMakeDetermineCompilerABI.cmake:74 (try_compile)"
+      - "/work/pi_chuangg_umass_edu/xiaowen/env/partslip/share/cmake-3.31/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:5 (project)"
+    checks:
+      - "Detecting C compiler ABI info"
+    directories:
+      source: "/work/pi_chuangg_umass_edu/xiaowen/PartSLIP2/partition/cut-pursuit/build/CMakeFiles/CMakeScratch/TryCompile-WKTcOV"
+      binary: "/work/pi_chuangg_umass_edu/xiaowen/PartSLIP2/partition/cut-pursuit/build/CMakeFiles/CMakeScratch/TryCompile-WKTcOV"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_EXE_LINKER_FLAGS: ""
+    buildResult:
+      variable: "CMAKE_C_ABI_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: '/work/pi_chuangg_umass_edu/xiaowen/PartSLIP2/partition/cut-pursuit/build/CMakeFiles/CMakeScratch/TryCompile-WKTcOV'
+        
+        Run Build Command(s): /work/pi_chuangg_umass_edu/xiaowen/env/partslip/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_71a71/fast
+        /usr/bin/gmake  -f CMakeFiles/cmTC_71a71.dir/build.make CMakeFiles/cmTC_71a71.dir/build
+        gmake[1]: Entering directory '/work/pi_chuangg_umass_edu/xiaowen/PartSLIP2/partition/cut-pursuit/build/CMakeFiles/CMakeScratch/TryCompile-WKTcOV'
+        Building C object CMakeFiles/cmTC_71a71.dir/CMakeCCompilerABI.c.o
+        /modules/spack/packages/linux-ubuntu24.04-x86_64_v3/gcc-13.2.0/gcc-9.4.0-ctk4n3223pjnwfvyn6crmzo4isburta7/bin/gcc   -v -o CMakeFiles/cmTC_71a71.dir/CMakeCCompilerABI.c.o -c /work/pi_chuangg_umass_edu/xiaowen/env/partslip/share/cmake-3.31/Modules/CMakeCCompilerABI.c
+        Reading specs from /modules/spack/packages/linux-ubuntu24.04-x86_64_v3/gcc-13.2.0/gcc-9.4.0-ctk4n3223pjnwfvyn6crmzo4isburta7/lib/gcc/x86_64-pc-linux-gnu/9.4.0/specs
+        COLLECT_GCC=/modules/spack/packages/linux-ubuntu24.04-x86_64_v3/gcc-13.2.0/gcc-9.4.0-ctk4n3223pjnwfvyn6crmzo4isburta7/bin/gcc
+        Target: x86_64-pc-linux-gnu
+        Configured with: /tmp/package-maintainer/spack-stage/spack-stage-gcc-9.4.0-ctk4n3223pjnwfvyn6crmzo4isburta7/spack-src/configure --prefix=/modules/spack/packages/linux-ubuntu24.04-x86_64_v3/gcc-13.2.0/gcc-9.4.0-ctk4n3223pjnwfvyn6crmzo4isburta7 --with-pkgversion='Spack GCC' --with-bugurl=https://github.com/spack/spack/issues --disable-multilib --enable-languages=c,c++,fortran --disable-nls --disable-canonical-system-headers --with-system-zlib --enable-bootstrap --with-mpfr-include=/modules/spack/packages/linux-ubuntu24.04-x86_64_v3/gcc-13.2.0/mpfr-3.1.6-ylap6dhxruv2wz3niolpgthikhvw6ed2/include --with-mpfr-lib=/modules/spack/packages/linux-ubuntu24.04-x86_64_v3/gcc-13.2.0/mpfr-3.1.6-ylap6dhxruv2wz3niolpgthikhvw6ed2/lib --with-gmp-include=/modules/spack/packages/linux-ubuntu24.04-x86_64_v3/gcc-13.2.0/gmp-6.2.1-m4mewheojoeylcxszht2kjrh75mamuev/include --with-gmp-lib=/modules/spack/packages/linux-ubuntu24.04-x86_64_v3/gcc-13.2.0/gmp-6.2.1-m4mewheojoeylcxszht2kjrh75mamuev/lib --with-mpc-include=/modules/spack/packages/linux-ubuntu24.04-x86_64_v3/gcc-13.2.0/mpc-1.1.0-zjjbyrf5u5mdlirfkliakmmx27u2qwb5/include --with-mpc-lib=/modules/spack/packages/linux-ubuntu24.04-x86_64_v3/gcc-13.2.0/mpc-1.1.0-zjjbyrf5u5mdlirfkliakmmx27u2qwb5/lib --without-isl --with-stage1-ldflags='-Wl,-rpath,/modules/spack/packages/linux-ubuntu24.04-x86_64_v3/gcc-13.2.0/gcc-9.4.0-ctk4n3223pjnwfvyn6crmzo4isburta7/lib -Wl,-rpath,/modules/spack/packages/linux-ubuntu24.04-x86_64_v3/gcc-13.2.0/gcc-9.4.0-ctk4n3223pjnwfvyn6crmzo4isburta7/lib64 -Wl,-rpath,/modules/spack/packages/linux-ubuntu24.04-x86_64/gcc-13.2.0/gcc-runtime-13.2.0-rcyio47gfziipclkomny2nhhsjiqpz65/lib -Wl,-rpath,/usr/lib -Wl,-rpath,/modules/spack/packages/linux-ubuntu24.04-x86_64_v3/gcc-13.2.0/gmp-6.2.1-m4mewheojoeylcxszht2kjrh75mamuev/lib -Wl,-rpath,/modules/spack/packages/linux-ubuntu24.04-x86_64_v3/gcc-13.2.0/mpc-1.1.0-zjjbyrf5u5mdlirfkliakmmx27u2qwb5/lib -Wl,-rpath,/modules/spack/packages/linux-ubuntu24.04-x86_64_v3/gcc-13.2.0/mpfr-3.1.6-ylap6dhxruv2wz3niolpgthikhvw6ed2/lib -Wl,-rpath,/modules/spack/packages/linux-ubuntu24.04-x86_64/gcc-13.2.0/zlib-ng-2.1.6-kh6kcfeidfzavdehuhd5753qybandckh/lib -Wl,-rpath,/usr/lib64' --with-boot-ldflags='-Wl,-rpath,/modules/spack/packages/linux-ubuntu24.04-x86_64_v3/gcc-13.2.0/gcc-9.4.0-ctk4n3223pjnwfvyn6crmzo4isburta7/lib -Wl,-rpath,/modules/spack/packages/linux-ubuntu24.04-x86_64_v3/gcc-13.2.0/gcc-9.4.0-ctk4n3223pjnwfvyn6crmzo4isburta7/lib64 -Wl,-rpath,/modules/spack/packages/linux-ubuntu24.04-x86_64/gcc-13.2.0/gcc-runtime-13.2.0-rcyio47gfziipclkomny2nhhsjiqpz65/lib -Wl,-rpath,/usr/lib -Wl,-rpath,/modules/spack/packages/linux-ubuntu24.04-x86_64_v3/gcc-13.2.0/gmp-6.2.1-m4mewheojoeylcxszht2kjrh75mamuev/lib -Wl,-rpath,/modules/spack/packages/linux-ubuntu24.04-x86_64_v3/gcc-13.2.0/mpc-1.1.0-zjjbyrf5u5mdlirfkliakmmx27u2qwb5/lib -Wl,-rpath,/modules/spack/packages/linux-ubuntu24.04-x86_64_v3/gcc-13.2.0/mpfr-3.1.6-ylap6dhxruv2wz3niolpgthikhvw6ed2/lib -Wl,-rpath,/modules/spack/packages/linux-ubuntu24.04-x86_64/gcc-13.2.0/zlib-ng-2.1.6-kh6kcfeidfzavdehuhd5753qybandckh/lib -Wl,-rpath,/usr/lib64 -static-libstdc++ -static-libgcc' --with-build-config=spack
+        Thread model: posix
+        gcc version 9.4.0 (Spack GCC) 
+        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_71a71.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64'
+         /modules/spack/packages/linux-ubuntu24.04-x86_64_v3/gcc-13.2.0/gcc-9.4.0-ctk4n3223pjnwfvyn6crmzo4isburta7/libexec/gcc/x86_64-pc-linux-gnu/9.4.0/cc1 -quiet -v -imultiarch x86_64-linux-gnu /work/pi_chuangg_umass_edu/xiaowen/env/partslip/share/cmake-3.31/Modules/CMakeCCompilerABI.c -quiet -dumpbase CMakeCCompilerABI.c -mtune=generic -march=x86-64 -auxbase-strip CMakeFiles/cmTC_71a71.dir/CMakeCCompilerABI.c.o -version -o /tmp/ccpE7C06.s
+        GNU C17 (Spack GCC) version 9.4.0 (x86_64-pc-linux-gnu)
+        	compiled by GNU C version 9.4.0, GMP version 6.2.1, MPFR version 3.1.6-p2, MPC version 1.1.0, isl version none
+        GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+        ignoring nonexistent directory "/usr/local/include/x86_64-linux-gnu"
+        ignoring nonexistent directory "/modules/spack/packages/linux-ubuntu24.04-x86_64_v3/gcc-13.2.0/gcc-9.4.0-ctk4n3223pjnwfvyn6crmzo4isburta7/lib/gcc/x86_64-pc-linux-gnu/9.4.0/../../../../x86_64-pc-linux-gnu/include"
+        #include "..." search starts here:
+        #include <...> search starts here:
+         /modules/spack/packages/linux-ubuntu24.04-x86_64_v3/gcc-13.2.0/gcc-9.4.0-ctk4n3223pjnwfvyn6crmzo4isburta7/lib/gcc/x86_64-pc-linux-gnu/9.4.0/include
+         /usr/local/include
+         /modules/spack/packages/linux-ubuntu24.04-x86_64_v3/gcc-13.2.0/gcc-9.4.0-ctk4n3223pjnwfvyn6crmzo4isburta7/include
+         /modules/spack/packages/linux-ubuntu24.04-x86_64_v3/gcc-13.2.0/gcc-9.4.0-ctk4n3223pjnwfvyn6crmzo4isburta7/lib/gcc/x86_64-pc-linux-gnu/9.4.0/include-fixed
+         /usr/include/x86_64-linux-gnu
+         /usr/include
+        End of search list.
+        GNU C17 (Spack GCC) version 9.4.0 (x86_64-pc-linux-gnu)
+        	compiled by GNU C version 9.4.0, GMP version 6.2.1, MPFR version 3.1.6-p2, MPC version 1.1.0, isl version none
+        GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+        Compiler executable checksum: 6fd3dd31b812ed41a80f7cec6ddf2cd9
+        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_71a71.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64'
+         as -v --64 -o CMakeFiles/cmTC_71a71.dir/CMakeCCompilerABI.c.o /tmp/ccpE7C06.s
+        GNU assembler version 2.42 (x86_64-linux-gnu) using BFD version (GNU Binutils for Ubuntu) 2.42
+        COMPILER_PATH=/modules/spack/packages/linux-ubuntu24.04-x86_64_v3/gcc-13.2.0/gcc-9.4.0-ctk4n3223pjnwfvyn6crmzo4isburta7/libexec/gcc/x86_64-pc-linux-gnu/9.4.0/:/modules/spack/packages/linux-ubuntu24.04-x86_64_v3/gcc-13.2.0/gcc-9.4.0-ctk4n3223pjnwfvyn6crmzo4isburta7/libexec/gcc/x86_64-pc-linux-gnu/9.4.0/:/modules/spack/packages/linux-ubuntu24.04-x86_64_v3/gcc-13.2.0/gcc-9.4.0-ctk4n3223pjnwfvyn6crmzo4isburta7/libexec/gcc/x86_64-pc-linux-gnu/:/modules/spack/packages/linux-ubuntu24.04-x86_64_v3/gcc-13.2.0/gcc-9.4.0-ctk4n3223pjnwfvyn6crmzo4isburta7/lib/gcc/x86_64-pc-linux-gnu/9.4.0/:/modules/spack/packages/linux-ubuntu24.04-x86_64_v3/gcc-13.2.0/gcc-9.4.0-ctk4n3223pjnwfvyn6crmzo4isburta7/lib/gcc/x86_64-pc-linux-gnu/
+        LIBRARY_PATH=/modules/spack/packages/linux-ubuntu24.04-x86_64_v3/gcc-13.2.0/gcc-9.4.0-ctk4n3223pjnwfvyn6crmzo4isburta7/lib/gcc/x86_64-pc-linux-gnu/9.4.0/:/modules/spack/packages/linux-ubuntu24.04-x86_64_v3/gcc-13.2.0/gcc-9.4.0-ctk4n3223pjnwfvyn6crmzo4isburta7/lib/gcc/x86_64-pc-linux-gnu/9.4.0/../../../../lib64/:/lib/x86_64-linux-gnu/:/lib/../lib64/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib64/:/modules/spack/packages/linux-ubuntu24.04-x86_64_v3/gcc-13.2.0/gcc-9.4.0-ctk4n3223pjnwfvyn6crmzo4isburta7/lib/gcc/x86_64-pc-linux-gnu/9.4.0/../../../:/lib/:/usr/lib/
+        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_71a71.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64'
+        Linking C executable cmTC_71a71
+        /work/pi_chuangg_umass_edu/xiaowen/env/partslip/bin/cmake -E cmake_link_script CMakeFiles/cmTC_71a71.dir/link.txt --verbose=1
+        Reading specs from /modules/spack/packages/linux-ubuntu24.04-x86_64_v3/gcc-13.2.0/gcc-9.4.0-ctk4n3223pjnwfvyn6crmzo4isburta7/lib/gcc/x86_64-pc-linux-gnu/9.4.0/specs
+        COLLECT_GCC=/modules/spack/packages/linux-ubuntu24.04-x86_64_v3/gcc-13.2.0/gcc-9.4.0-ctk4n3223pjnwfvyn6crmzo4isburta7/bin/gcc
+        COLLECT_LTO_WRAPPER=/modules/spack/packages/linux-ubuntu24.04-x86_64_v3/gcc-13.2.0/gcc-9.4.0-ctk4n3223pjnwfvyn6crmzo4isburta7/libexec/gcc/x86_64-pc-linux-gnu/9.4.0/lto-wrapper
+        Target: x86_64-pc-linux-gnu
+        Configured with: /tmp/package-maintainer/spack-stage/spack-stage-gcc-9.4.0-ctk4n3223pjnwfvyn6crmzo4isburta7/spack-src/configure --prefix=/modules/spack/packages/linux-ubuntu24.04-x86_64_v3/gcc-13.2.0/gcc-9.4.0-ctk4n3223pjnwfvyn6crmzo4isburta7 --with-pkgversion='Spack GCC' --with-bugurl=https://github.com/spack/spack/issues --disable-multilib --enable-languages=c,c++,fortran --disable-nls --disable-canonical-system-headers --with-system-zlib --enable-bootstrap --with-mpfr-include=/modules/spack/packages/linux-ubuntu24.04-x86_64_v3/gcc-13.2.0/mpfr-3.1.6-ylap6dhxruv2wz3niolpgthikhvw6ed2/include --with-mpfr-lib=/modules/spack/packages/linux-ubuntu24.04-x86_64_v3/gcc-13.2.0/mpfr-3.1.6-ylap6dhxruv2wz3niolpgthikhvw6ed2/lib --with-gmp-include=/modules/spack/packages/linux-ubuntu24.04-x86_64_v3/gcc-13.2.0/gmp-6.2.1-m4mewheojoeylcxszht2kjrh75mamuev/include --with-gmp-lib=/modules/spack/packages/linux-ubuntu24.04-x86_64_v3/gcc-13.2.0/gmp-6.2.1-m4mewheojoeylcxszht2kjrh75mamuev/lib --with-mpc-include=/modules/spack/packages/linux-ubuntu24.04-x86_64_v3/gcc-13.2.0/mpc-1.1.0-zjjbyrf5u5mdlirfkliakmmx27u2qwb5/include --with-mpc-lib=/modules/spack/packages/linux-ubuntu24.04-x86_64_v3/gcc-13.2.0/mpc-1.1.0-zjjbyrf5u5mdlirfkliakmmx27u2qwb5/lib --without-isl --with-stage1-ldflags='-Wl,-rpath,/modules/spack/packages/linux-ubuntu24.04-x86_64_v3/gcc-13.2.0/gcc-9.4.0-ctk4n3223pjnwfvyn6crmzo4isburta7/lib -Wl,-rpath,/modules/spack/packages/linux-ubuntu24.04-x86_64_v3/gcc-13.2.0/gcc-9.4.0-ctk4n3223pjnwfvyn6crmzo4isburta7/lib64 -Wl,-rpath,/modules/spack/packages/linux-ubuntu24.04-x86_64/gcc-13.2.0/gcc-runtime-13.2.0-rcyio47gfziipclkomny2nhhsjiqpz65/lib -Wl,-rpath,/usr/lib -Wl,-rpath,/modules/spack/packages/linux-ubuntu24.04-x86_64_v3/gcc-13.2.0/gmp-6.2.1-m4mewheojoeylcxszht2kjrh75mamuev/lib -Wl,-rpath,/modules/spack/packages/linux-ubuntu24.04-x86_64_v3/gcc-13.2.0/mpc-1.1.0-zjjbyrf5u5mdlirfkliakmmx27u2qwb5/lib -Wl,-rpath,/modules/spack/packages/linux-ubuntu24.04-x86_64_v3/gcc-13.2.0/mpfr-3.1.6-ylap6dhxruv2wz3niolpgthikhvw6ed2/lib -Wl,-rpath,/modules/spack/packages/linux-ubuntu24.04-x86_64/gcc-13.2.0/zlib-ng-2.1.6-kh6kcfeidfzavdehuhd5753qybandckh/lib -Wl,-rpath,/usr/lib64' --with-boot-ldflags='-Wl,-rpath,/modules/spack/packages/linux-ubuntu24.04-x86_64_v3/gcc-13.2.0/gcc-9.4.0-ctk4n3223pjnwfvyn6crmzo4isburta7/lib -Wl,-rpath,/modules/spack/packages/linux-ubuntu24.04-x86_64_v3/gcc-13.2.0/gcc-9.4.0-ctk4n3223pjnwfvyn6crmzo4isburta7/lib64 -Wl,-rpath,/modules/spack/packages/linux-ubuntu24.04-x86_64/gcc-13.2.0/gcc-runtime-13.2.0-rcyio47gfziipclkomny2nhhsjiqpz65/lib -Wl,-rpath,/usr/lib -Wl,-rpath,/modules/spack/packages/linux-ubuntu24.04-x86_64_v3/gcc-13.2.0/gmp-6.2.1-m4mewheojoeylcxszht2kjrh75mamuev/lib -Wl,-rpath,/modules/spack/packages/linux-ubuntu24.04-x86_64_v3/gcc-13.2.0/mpc-1.1.0-zjjbyrf5u5mdlirfkliakmmx27u2qwb5/lib -Wl,-rpath,/modules/spack/packages/linux-ubuntu24.04-x86_64_v3/gcc-13.2.0/mpfr-3.1.6-ylap6dhxruv2wz3niolpgthikhvw6ed2/lib -Wl,-rpath,/modules/spack/packages/linux-ubuntu24.04-x86_64/gcc-13.2.0/zlib-ng-2.1.6-kh6kcfeidfzavdehuhd5753qybandckh/lib -Wl,-rpath,/usr/lib64 -static-libstdc++ -static-libgcc' --with-build-config=spack
+        Thread model: posix
+        gcc version 9.4.0 (Spack GCC) 
+        COMPILER_PATH=/modules/spack/packages/linux-ubuntu24.04-x86_64_v3/gcc-13.2.0/gcc-9.4.0-ctk4n3223pjnwfvyn6crmzo4isburta7/libexec/gcc/x86_64-pc-linux-gnu/9.4.0/:/modules/spack/packages/linux-ubuntu24.04-x86_64_v3/gcc-13.2.0/gcc-9.4.0-ctk4n3223pjnwfvyn6crmzo4isburta7/libexec/gcc/x86_64-pc-linux-gnu/9.4.0/:/modules/spack/packages/linux-ubuntu24.04-x86_64_v3/gcc-13.2.0/gcc-9.4.0-ctk4n3223pjnwfvyn6crmzo4isburta7/libexec/gcc/x86_64-pc-linux-gnu/:/modules/spack/packages/linux-ubuntu24.04-x86_64_v3/gcc-13.2.0/gcc-9.4.0-ctk4n3223pjnwfvyn6crmzo4isburta7/lib/gcc/x86_64-pc-linux-gnu/9.4.0/:/modules/spack/packages/linux-ubuntu24.04-x86_64_v3/gcc-13.2.0/gcc-9.4.0-ctk4n3223pjnwfvyn6crmzo4isburta7/lib/gcc/x86_64-pc-linux-gnu/
+        LIBRARY_PATH=/modules/spack/packages/linux-ubuntu24.04-x86_64_v3/gcc-13.2.0/gcc-9.4.0-ctk4n3223pjnwfvyn6crmzo4isburta7/lib/gcc/x86_64-pc-linux-gnu/9.4.0/:/modules/spack/packages/linux-ubuntu24.04-x86_64_v3/gcc-13.2.0/gcc-9.4.0-ctk4n3223pjnwfvyn6crmzo4isburta7/lib/gcc/x86_64-pc-linux-gnu/9.4.0/../../../../lib64/:/lib/x86_64-linux-gnu/:/lib/../lib64/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib64/:/modules/spack/packages/linux-ubuntu24.04-x86_64_v3/gcc-13.2.0/gcc-9.4.0-ctk4n3223pjnwfvyn6crmzo4isburta7/lib/gcc/x86_64-pc-linux-gnu/9.4.0/../../../:/lib/:/usr/lib/
+        COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_71a71' '-mtune=generic' '-march=x86-64'
+         /modules/spack/packages/linux-ubuntu24.04-x86_64_v3/gcc-13.2.0/gcc-9.4.0-ctk4n3223pjnwfvyn6crmzo4isburta7/libexec/gcc/x86_64-pc-linux-gnu/9.4.0/collect2 -plugin /modules/spack/packages/linux-ubuntu24.04-x86_64_v3/gcc-13.2.0/gcc-9.4.0-ctk4n3223pjnwfvyn6crmzo4isburta7/libexec/gcc/x86_64-pc-linux-gnu/9.4.0/liblto_plugin.so -plugin-opt=/modules/spack/packages/linux-ubuntu24.04-x86_64_v3/gcc-13.2.0/gcc-9.4.0-ctk4n3223pjnwfvyn6crmzo4isburta7/libexec/gcc/x86_64-pc-linux-gnu/9.4.0/lto-wrapper -plugin-opt=-fresolution=/tmp/ccjEt5Of.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --eh-frame-hdr -m elf_x86_64 -dynamic-linker /lib64/ld-linux-x86-64.so.2 -o cmTC_71a71 /lib/x86_64-linux-gnu/crt1.o /lib/x86_64-linux-gnu/crti.o /modules/spack/packages/linux-ubuntu24.04-x86_64_v3/gcc-13.2.0/gcc-9.4.0-ctk4n3223pjnwfvyn6crmzo4isburta7/lib/gcc/x86_64-pc-linux-gnu/9.4.0/crtbegin.o -L/modules/spack/packages/linux-ubuntu24.04-x86_64_v3/gcc-13.2.0/gcc-9.4.0-ctk4n3223pjnwfvyn6crmzo4isburta7/lib/gcc/x86_64-pc-linux-gnu/9.4.0 -L/modules/spack/packages/linux-ubuntu24.04-x86_64_v3/gcc-13.2.0/gcc-9.4.0-ctk4n3223pjnwfvyn6crmzo4isburta7/lib/gcc/x86_64-pc-linux-gnu/9.4.0/../../../../lib64 -L/lib/x86_64-linux-gnu -L/lib/../lib64 -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib64 -L/modules/spack/packages/linux-ubuntu24.04-x86_64_v3/gcc-13.2.0/gcc-9.4.0-ctk4n3223pjnwfvyn6crmzo4isburta7/lib/gcc/x86_64-pc-linux-gnu/9.4.0/../../.. -rpath /modules/spack/packages/linux-ubuntu24.04-x86_64_v3/gcc-13.2.0/gcc-9.4.0-ctk4n3223pjnwfvyn6crmzo4isburta7/lib64 -v CMakeFiles/cmTC_71a71.dir/CMakeCCompilerABI.c.o -lgcc --push-state --as-needed -lgcc_s --pop-state -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /modules/spack/packages/linux-ubuntu24.04-x86_64_v3/gcc-13.2.0/gcc-9.4.0-ctk4n3223pjnwfvyn6crmzo4isburta7/lib/gcc/x86_64-pc-linux-gnu/9.4.0/crtend.o /lib/x86_64-linux-gnu/crtn.o
+        collect2 version 9.4.0
+        /usr/bin/ld -plugin /modules/spack/packages/linux-ubuntu24.04-x86_64_v3/gcc-13.2.0/gcc-9.4.0-ctk4n3223pjnwfvyn6crmzo4isburta7/libexec/gcc/x86_64-pc-linux-gnu/9.4.0/liblto_plugin.so -plugin-opt=/modules/spack/packages/linux-ubuntu24.04-x86_64_v3/gcc-13.2.0/gcc-9.4.0-ctk4n3223pjnwfvyn6crmzo4isburta7/libexec/gcc/x86_64-pc-linux-gnu/9.4.0/lto-wrapper -plugin-opt=-fresolution=/tmp/ccjEt5Of.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --eh-frame-hdr -m elf_x86_64 -dynamic-linker /lib64/ld-linux-x86-64.so.2 -o cmTC_71a71 /lib/x86_64-linux-gnu/crt1.o /lib/x86_64-linux-gnu/crti.o /modules/spack/packages/linux-ubuntu24.04-x86_64_v3/gcc-13.2.0/gcc-9.4.0-ctk4n3223pjnwfvyn6crmzo4isburta7/lib/gcc/x86_64-pc-linux-gnu/9.4.0/crtbegin.o -L/modules/spack/packages/linux-ubuntu24.04-x86_64_v3/gcc-13.2.0/gcc-9.4.0-ctk4n3223pjnwfvyn6crmzo4isburta7/lib/gcc/x86_64-pc-linux-gnu/9.4.0 -L/modules/spack/packages/linux-ubuntu24.04-x86_64_v3/gcc-13.2.0/gcc-9.4.0-ctk4n3223pjnwfvyn6crmzo4isburta7/lib/gcc/x86_64-pc-linux-gnu/9.4.0/../../../../lib64 -L/lib/x86_64-linux-gnu -L/lib/../lib64 -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib64 -L/modules/spack/packages/linux-ubuntu24.04-x86_64_v3/gcc-13.2.0/gcc-9.4.0-ctk4n3223pjnwfvyn6crmzo4isburta7/lib/gcc/x86_64-pc-linux-gnu/9.4.0/../../.. -rpath /modules/spack/packages/linux-ubuntu24.04-x86_64_v3/gcc-13.2.0/gcc-9.4.0-ctk4n3223pjnwfvyn6crmzo4isburta7/lib64 -v CMakeFiles/cmTC_71a71.dir/CMakeCCompilerABI.c.o -lgcc --push-state --as-needed -lgcc_s --pop-state -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /modules/spack/packages/linux-ubuntu24.04-x86_64_v3/gcc-13.2.0/gcc-9.4.0-ctk4n3223pjnwfvyn6crmzo4isburta7/lib/gcc/x86_64-pc-linux-gnu/9.4.0/crtend.o /lib/x86_64-linux-gnu/crtn.o
+        GNU ld (GNU Binutils for Ubuntu) 2.42
+        COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_71a71' '-mtune=generic' '-march=x86-64'
+        /modules/spack/packages/linux-ubuntu24.04-x86_64_v3/gcc-13.2.0/gcc-9.4.0-ctk4n3223pjnwfvyn6crmzo4isburta7/bin/gcc  -v -Wl,-v CMakeFiles/cmTC_71a71.dir/CMakeCCompilerABI.c.o -o cmTC_71a71
+        gmake[1]: Leaving directory '/work/pi_chuangg_umass_edu/xiaowen/PartSLIP2/partition/cut-pursuit/build/CMakeFiles/CMakeScratch/TryCompile-WKTcOV'
+        
+      exitCode: 0
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/work/pi_chuangg_umass_edu/xiaowen/env/partslip/share/cmake-3.31/Modules/CMakeDetermineCompilerABI.cmake:182 (message)"
+      - "/work/pi_chuangg_umass_edu/xiaowen/env/partslip/share/cmake-3.31/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:5 (project)"
+    message: |
+      Parsed C implicit include dir info: rv=done
+        found start of include info
+        found start of implicit include info
+          add: [/modules/spack/packages/linux-ubuntu24.04-x86_64_v3/gcc-13.2.0/gcc-9.4.0-ctk4n3223pjnwfvyn6crmzo4isburta7/lib/gcc/x86_64-pc-linux-gnu/9.4.0/include]
+          add: [/usr/local/include]
+          add: [/modules/spack/packages/linux-ubuntu24.04-x86_64_v3/gcc-13.2.0/gcc-9.4.0-ctk4n3223pjnwfvyn6crmzo4isburta7/include]
+          add: [/modules/spack/packages/linux-ubuntu24.04-x86_64_v3/gcc-13.2.0/gcc-9.4.0-ctk4n3223pjnwfvyn6crmzo4isburta7/lib/gcc/x86_64-pc-linux-gnu/9.4.0/include-fixed]
+          add: [/usr/include/x86_64-linux-gnu]
+          add: [/usr/include]
+        end of search list found
+        collapse include dir [/modules/spack/packages/linux-ubuntu24.04-x86_64_v3/gcc-13.2.0/gcc-9.4.0-ctk4n3223pjnwfvyn6crmzo4isburta7/lib/gcc/x86_64-pc-linux-gnu/9.4.0/include] ==> [/modules/spack/packages/linux-ubuntu24.04-x86_64_v3/gcc-13.2.0/gcc-9.4.0-ctk4n3223pjnwfvyn6crmzo4isburta7/lib/gcc/x86_64-pc-linux-gnu/9.4.0/include]
+        collapse include dir [/usr/local/include] ==> [/usr/local/include]
+        collapse include dir [/modules/spack/packages/linux-ubuntu24.04-x86_64_v3/gcc-13.2.0/gcc-9.4.0-ctk4n3223pjnwfvyn6crmzo4isburta7/include] ==> [/modules/spack/packages/linux-ubuntu24.04-x86_64_v3/gcc-13.2.0/gcc-9.4.0-ctk4n3223pjnwfvyn6crmzo4isburta7/include]
+        collapse include dir [/modules/spack/packages/linux-ubuntu24.04-x86_64_v3/gcc-13.2.0/gcc-9.4.0-ctk4n3223pjnwfvyn6crmzo4isburta7/lib/gcc/x86_64-pc-linux-gnu/9.4.0/include-fixed] ==> [/modules/spack/packages/linux-ubuntu24.04-x86_64_v3/gcc-13.2.0/gcc-9.4.0-ctk4n3223pjnwfvyn6crmzo4isburta7/lib/gcc/x86_64-pc-linux-gnu/9.4.0/include-fixed]
+        collapse include dir [/usr/include/x86_64-linux-gnu] ==> [/usr/include/x86_64-linux-gnu]
+        collapse include dir [/usr/include] ==> [/usr/include]
+        implicit include dirs: [/modules/spack/packages/linux-ubuntu24.04-x86_64_v3/gcc-13.2.0/gcc-9.4.0-ctk4n3223pjnwfvyn6crmzo4isburta7/lib/gcc/x86_64-pc-linux-gnu/9.4.0/include;/usr/local/include;/modules/spack/packages/linux-ubuntu24.04-x86_64_v3/gcc-13.2.0/gcc-9.4.0-ctk4n3223pjnwfvyn6crmzo4isburta7/include;/modules/spack/packages/linux-ubuntu24.04-x86_64_v3/gcc-13.2.0/gcc-9.4.0-ctk4n3223pjnwfvyn6crmzo4isburta7/lib/gcc/x86_64-pc-linux-gnu/9.4.0/include-fixed;/usr/include/x86_64-linux-gnu;/usr/include]
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/work/pi_chuangg_umass_edu/xiaowen/env/partslip/share/cmake-3.31/Modules/CMakeDetermineCompilerABI.cmake:218 (message)"
+      - "/work/pi_chuangg_umass_edu/xiaowen/env/partslip/share/cmake-3.31/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:5 (project)"
+    message: |
+      Parsed C implicit link information:
+        link line regex: [^( *|.*[/\\])(ld[0-9]*(\\.[a-z]+)?|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
+        linker tool regex: [^[ 	]*(->|")?[ 	]*(([^"]*[/\\])?(ld[0-9]*(\\.[a-z]+)?))("|,| |$)]
+        ignore line: [Change Dir: '/work/pi_chuangg_umass_edu/xiaowen/PartSLIP2/partition/cut-pursuit/build/CMakeFiles/CMakeScratch/TryCompile-WKTcOV']
+        ignore line: []
+        ignore line: [Run Build Command(s): /work/pi_chuangg_umass_edu/xiaowen/env/partslip/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_71a71/fast]
+        ignore line: [/usr/bin/gmake  -f CMakeFiles/cmTC_71a71.dir/build.make CMakeFiles/cmTC_71a71.dir/build]
+        ignore line: [gmake[1]: Entering directory '/work/pi_chuangg_umass_edu/xiaowen/PartSLIP2/partition/cut-pursuit/build/CMakeFiles/CMakeScratch/TryCompile-WKTcOV']
+        ignore line: [Building C object CMakeFiles/cmTC_71a71.dir/CMakeCCompilerABI.c.o]
+        ignore line: [/modules/spack/packages/linux-ubuntu24.04-x86_64_v3/gcc-13.2.0/gcc-9.4.0-ctk4n3223pjnwfvyn6crmzo4isburta7/bin/gcc   -v -o CMakeFiles/cmTC_71a71.dir/CMakeCCompilerABI.c.o -c /work/pi_chuangg_umass_edu/xiaowen/env/partslip/share/cmake-3.31/Modules/CMakeCCompilerABI.c]
+        ignore line: [Reading specs from /modules/spack/packages/linux-ubuntu24.04-x86_64_v3/gcc-13.2.0/gcc-9.4.0-ctk4n3223pjnwfvyn6crmzo4isburta7/lib/gcc/x86_64-pc-linux-gnu/9.4.0/specs]
+        ignore line: [COLLECT_GCC=/modules/spack/packages/linux-ubuntu24.04-x86_64_v3/gcc-13.2.0/gcc-9.4.0-ctk4n3223pjnwfvyn6crmzo4isburta7/bin/gcc]
+        ignore line: [Target: x86_64-pc-linux-gnu]
+        ignore line: [Configured with: /tmp/package-maintainer/spack-stage/spack-stage-gcc-9.4.0-ctk4n3223pjnwfvyn6crmzo4isburta7/spack-src/configure --prefix=/modules/spack/packages/linux-ubuntu24.04-x86_64_v3/gcc-13.2.0/gcc-9.4.0-ctk4n3223pjnwfvyn6crmzo4isburta7 --with-pkgversion='Spack GCC' --with-bugurl=https://github.com/spack/spack/issues --disable-multilib --enable-languages=c c++ fortran --disable-nls --disable-canonical-system-headers --with-system-zlib --enable-bootstrap --with-mpfr-include=/modules/spack/packages/linux-ubuntu24.04-x86_64_v3/gcc-13.2.0/mpfr-3.1.6-ylap6dhxruv2wz3niolpgthikhvw6ed2/include --with-mpfr-lib=/modules/spack/packages/linux-ubuntu24.04-x86_64_v3/gcc-13.2.0/mpfr-3.1.6-ylap6dhxruv2wz3niolpgthikhvw6ed2/lib --with-gmp-include=/modules/spack/packages/linux-ubuntu24.04-x86_64_v3/gcc-13.2.0/gmp-6.2.1-m4mewheojoeylcxszht2kjrh75mamuev/include --with-gmp-lib=/modules/spack/packages/linux-ubuntu24.04-x86_64_v3/gcc-13.2.0/gmp-6.2.1-m4mewheojoeylcxszht2kjrh75mamuev/lib --with-mpc-include=/modules/spack/packages/linux-ubuntu24.04-x86_64_v3/gcc-13.2.0/mpc-1.1.0-zjjbyrf5u5mdlirfkliakmmx27u2qwb5/include --with-mpc-lib=/modules/spack/packages/linux-ubuntu24.04-x86_64_v3/gcc-13.2.0/mpc-1.1.0-zjjbyrf5u5mdlirfkliakmmx27u2qwb5/lib --without-isl --with-stage1-ldflags='-Wl -rpath /modules/spack/packages/linux-ubuntu24.04-x86_64_v3/gcc-13.2.0/gcc-9.4.0-ctk4n3223pjnwfvyn6crmzo4isburta7/lib -Wl -rpath /modules/spack/packages/linux-ubuntu24.04-x86_64_v3/gcc-13.2.0/gcc-9.4.0-ctk4n3223pjnwfvyn6crmzo4isburta7/lib64 -Wl -rpath /modules/spack/packages/linux-ubuntu24.04-x86_64/gcc-13.2.0/gcc-runtime-13.2.0-rcyio47gfziipclkomny2nhhsjiqpz65/lib -Wl -rpath /usr/lib -Wl -rpath /modules/spack/packages/linux-ubuntu24.04-x86_64_v3/gcc-13.2.0/gmp-6.2.1-m4mewheojoeylcxszht2kjrh75mamuev/lib -Wl -rpath /modules/spack/packages/linux-ubuntu24.04-x86_64_v3/gcc-13.2.0/mpc-1.1.0-zjjbyrf5u5mdlirfkliakmmx27u2qwb5/lib -Wl -rpath /modules/spack/packages/linux-ubuntu24.04-x86_64_v3/gcc-13.2.0/mpfr-3.1.6-ylap6dhxruv2wz3niolpgthikhvw6ed2/lib -Wl -rpath /modules/spack/packages/linux-ubuntu24.04-x86_64/gcc-13.2.0/zlib-ng-2.1.6-kh6kcfeidfzavdehuhd5753qybandckh/lib -Wl -rpath /usr/lib64' --with-boot-ldflags='-Wl -rpath /modules/spack/packages/linux-ubuntu24.04-x86_64_v3/gcc-13.2.0/gcc-9.4.0-ctk4n3223pjnwfvyn6crmzo4isburta7/lib -Wl -rpath /modules/spack/packages/linux-ubuntu24.04-x86_64_v3/gcc-13.2.0/gcc-9.4.0-ctk4n3223pjnwfvyn6crmzo4isburta7/lib64 -Wl -rpath /modules/spack/packages/linux-ubuntu24.04-x86_64/gcc-13.2.0/gcc-runtime-13.2.0-rcyio47gfziipclkomny2nhhsjiqpz65/lib -Wl -rpath /usr/lib -Wl -rpath /modules/spack/packages/linux-ubuntu24.04-x86_64_v3/gcc-13.2.0/gmp-6.2.1-m4mewheojoeylcxszht2kjrh75mamuev/lib -Wl -rpath /modules/spack/packages/linux-ubuntu24.04-x86_64_v3/gcc-13.2.0/mpc-1.1.0-zjjbyrf5u5mdlirfkliakmmx27u2qwb5/lib -Wl -rpath /modules/spack/packages/linux-ubuntu24.04-x86_64_v3/gcc-13.2.0/mpfr-3.1.6-ylap6dhxruv2wz3niolpgthikhvw6ed2/lib -Wl -rpath /modules/spack/packages/linux-ubuntu24.04-x86_64/gcc-13.2.0/zlib-ng-2.1.6-kh6kcfeidfzavdehuhd5753qybandckh/lib -Wl -rpath /usr/lib64 -static-libstdc++ -static-libgcc' --with-build-config=spack]
+        ignore line: [Thread model: posix]
+        ignore line: [gcc version 9.4.0 (Spack GCC) ]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_71a71.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64']
+        ignore line: [ /modules/spack/packages/linux-ubuntu24.04-x86_64_v3/gcc-13.2.0/gcc-9.4.0-ctk4n3223pjnwfvyn6crmzo4isburta7/libexec/gcc/x86_64-pc-linux-gnu/9.4.0/cc1 -quiet -v -imultiarch x86_64-linux-gnu /work/pi_chuangg_umass_edu/xiaowen/env/partslip/share/cmake-3.31/Modules/CMakeCCompilerABI.c -quiet -dumpbase CMakeCCompilerABI.c -mtune=generic -march=x86-64 -auxbase-strip CMakeFiles/cmTC_71a71.dir/CMakeCCompilerABI.c.o -version -o /tmp/ccpE7C06.s]
+        ignore line: [GNU C17 (Spack GCC) version 9.4.0 (x86_64-pc-linux-gnu)]
+        ignore line: [	compiled by GNU C version 9.4.0  GMP version 6.2.1  MPFR version 3.1.6-p2  MPC version 1.1.0  isl version none]
+        ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+        ignore line: [ignoring nonexistent directory "/usr/local/include/x86_64-linux-gnu"]
+        ignore line: [ignoring nonexistent directory "/modules/spack/packages/linux-ubuntu24.04-x86_64_v3/gcc-13.2.0/gcc-9.4.0-ctk4n3223pjnwfvyn6crmzo4isburta7/lib/gcc/x86_64-pc-linux-gnu/9.4.0/../../../../x86_64-pc-linux-gnu/include"]
+        ignore line: [#include "..." search starts here:]
+        ignore line: [#include <...> search starts here:]
+        ignore line: [ /modules/spack/packages/linux-ubuntu24.04-x86_64_v3/gcc-13.2.0/gcc-9.4.0-ctk4n3223pjnwfvyn6crmzo4isburta7/lib/gcc/x86_64-pc-linux-gnu/9.4.0/include]
+        ignore line: [ /usr/local/include]
+        ignore line: [ /modules/spack/packages/linux-ubuntu24.04-x86_64_v3/gcc-13.2.0/gcc-9.4.0-ctk4n3223pjnwfvyn6crmzo4isburta7/include]
+        ignore line: [ /modules/spack/packages/linux-ubuntu24.04-x86_64_v3/gcc-13.2.0/gcc-9.4.0-ctk4n3223pjnwfvyn6crmzo4isburta7/lib/gcc/x86_64-pc-linux-gnu/9.4.0/include-fixed]
+        ignore line: [ /usr/include/x86_64-linux-gnu]
+        ignore line: [ /usr/include]
+        ignore line: [End of search list.]
+        ignore line: [GNU C17 (Spack GCC) version 9.4.0 (x86_64-pc-linux-gnu)]
+        ignore line: [	compiled by GNU C version 9.4.0  GMP version 6.2.1  MPFR version 3.1.6-p2  MPC version 1.1.0  isl version none]
+        ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+        ignore line: [Compiler executable checksum: 6fd3dd31b812ed41a80f7cec6ddf2cd9]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_71a71.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64']
+        ignore line: [ as -v --64 -o CMakeFiles/cmTC_71a71.dir/CMakeCCompilerABI.c.o /tmp/ccpE7C06.s]
+        ignore line: [GNU assembler version 2.42 (x86_64-linux-gnu) using BFD version (GNU Binutils for Ubuntu) 2.42]
+        ignore line: [COMPILER_PATH=/modules/spack/packages/linux-ubuntu24.04-x86_64_v3/gcc-13.2.0/gcc-9.4.0-ctk4n3223pjnwfvyn6crmzo4isburta7/libexec/gcc/x86_64-pc-linux-gnu/9.4.0/:/modules/spack/packages/linux-ubuntu24.04-x86_64_v3/gcc-13.2.0/gcc-9.4.0-ctk4n3223pjnwfvyn6crmzo4isburta7/libexec/gcc/x86_64-pc-linux-gnu/9.4.0/:/modules/spack/packages/linux-ubuntu24.04-x86_64_v3/gcc-13.2.0/gcc-9.4.0-ctk4n3223pjnwfvyn6crmzo4isburta7/libexec/gcc/x86_64-pc-linux-gnu/:/modules/spack/packages/linux-ubuntu24.04-x86_64_v3/gcc-13.2.0/gcc-9.4.0-ctk4n3223pjnwfvyn6crmzo4isburta7/lib/gcc/x86_64-pc-linux-gnu/9.4.0/:/modules/spack/packages/linux-ubuntu24.04-x86_64_v3/gcc-13.2.0/gcc-9.4.0-ctk4n3223pjnwfvyn6crmzo4isburta7/lib/gcc/x86_64-pc-linux-gnu/]
+        ignore line: [LIBRARY_PATH=/modules/spack/packages/linux-ubuntu24.04-x86_64_v3/gcc-13.2.0/gcc-9.4.0-ctk4n3223pjnwfvyn6crmzo4isburta7/lib/gcc/x86_64-pc-linux-gnu/9.4.0/:/modules/spack/packages/linux-ubuntu24.04-x86_64_v3/gcc-13.2.0/gcc-9.4.0-ctk4n3223pjnwfvyn6crmzo4isburta7/lib/gcc/x86_64-pc-linux-gnu/9.4.0/../../../../lib64/:/lib/x86_64-linux-gnu/:/lib/../lib64/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib64/:/modules/spack/packages/linux-ubuntu24.04-x86_64_v3/gcc-13.2.0/gcc-9.4.0-ctk4n3223pjnwfvyn6crmzo4isburta7/lib/gcc/x86_64-pc-linux-gnu/9.4.0/../../../:/lib/:/usr/lib/]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_71a71.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64']
+        ignore line: [Linking C executable cmTC_71a71]
+        ignore line: [/work/pi_chuangg_umass_edu/xiaowen/env/partslip/bin/cmake -E cmake_link_script CMakeFiles/cmTC_71a71.dir/link.txt --verbose=1]
+        ignore line: [Reading specs from /modules/spack/packages/linux-ubuntu24.04-x86_64_v3/gcc-13.2.0/gcc-9.4.0-ctk4n3223pjnwfvyn6crmzo4isburta7/lib/gcc/x86_64-pc-linux-gnu/9.4.0/specs]
+        ignore line: [COLLECT_GCC=/modules/spack/packages/linux-ubuntu24.04-x86_64_v3/gcc-13.2.0/gcc-9.4.0-ctk4n3223pjnwfvyn6crmzo4isburta7/bin/gcc]
+        ignore line: [COLLECT_LTO_WRAPPER=/modules/spack/packages/linux-ubuntu24.04-x86_64_v3/gcc-13.2.0/gcc-9.4.0-ctk4n3223pjnwfvyn6crmzo4isburta7/libexec/gcc/x86_64-pc-linux-gnu/9.4.0/lto-wrapper]
+        ignore line: [Target: x86_64-pc-linux-gnu]
+        ignore line: [Configured with: /tmp/package-maintainer/spack-stage/spack-stage-gcc-9.4.0-ctk4n3223pjnwfvyn6crmzo4isburta7/spack-src/configure --prefix=/modules/spack/packages/linux-ubuntu24.04-x86_64_v3/gcc-13.2.0/gcc-9.4.0-ctk4n3223pjnwfvyn6crmzo4isburta7 --with-pkgversion='Spack GCC' --with-bugurl=https://github.com/spack/spack/issues --disable-multilib --enable-languages=c c++ fortran --disable-nls --disable-canonical-system-headers --with-system-zlib --enable-bootstrap --with-mpfr-include=/modules/spack/packages/linux-ubuntu24.04-x86_64_v3/gcc-13.2.0/mpfr-3.1.6-ylap6dhxruv2wz3niolpgthikhvw6ed2/include --with-mpfr-lib=/modules/spack/packages/linux-ubuntu24.04-x86_64_v3/gcc-13.2.0/mpfr-3.1.6-ylap6dhxruv2wz3niolpgthikhvw6ed2/lib --with-gmp-include=/modules/spack/packages/linux-ubuntu24.04-x86_64_v3/gcc-13.2.0/gmp-6.2.1-m4mewheojoeylcxszht2kjrh75mamuev/include --with-gmp-lib=/modules/spack/packages/linux-ubuntu24.04-x86_64_v3/gcc-13.2.0/gmp-6.2.1-m4mewheojoeylcxszht2kjrh75mamuev/lib --with-mpc-include=/modules/spack/packages/linux-ubuntu24.04-x86_64_v3/gcc-13.2.0/mpc-1.1.0-zjjbyrf5u5mdlirfkliakmmx27u2qwb5/include --with-mpc-lib=/modules/spack/packages/linux-ubuntu24.04-x86_64_v3/gcc-13.2.0/mpc-1.1.0-zjjbyrf5u5mdlirfkliakmmx27u2qwb5/lib --without-isl --with-stage1-ldflags='-Wl -rpath /modules/spack/packages/linux-ubuntu24.04-x86_64_v3/gcc-13.2.0/gcc-9.4.0-ctk4n3223pjnwfvyn6crmzo4isburta7/lib -Wl -rpath /modules/spack/packages/linux-ubuntu24.04-x86_64_v3/gcc-13.2.0/gcc-9.4.0-ctk4n3223pjnwfvyn6crmzo4isburta7/lib64 -Wl -rpath /modules/spack/packages/linux-ubuntu24.04-x86_64/gcc-13.2.0/gcc-runtime-13.2.0-rcyio47gfziipclkomny2nhhsjiqpz65/lib -Wl -rpath /usr/lib -Wl -rpath /modules/spack/packages/linux-ubuntu24.04-x86_64_v3/gcc-13.2.0/gmp-6.2.1-m4mewheojoeylcxszht2kjrh75mamuev/lib -Wl -rpath /modules/spack/packages/linux-ubuntu24.04-x86_64_v3/gcc-13.2.0/mpc-1.1.0-zjjbyrf5u5mdlirfkliakmmx27u2qwb5/lib -Wl -rpath /modules/spack/packages/linux-ubuntu24.04-x86_64_v3/gcc-13.2.0/mpfr-3.1.6-ylap6dhxruv2wz3niolpgthikhvw6ed2/lib -Wl -rpath /modules/spack/packages/linux-ubuntu24.04-x86_64/gcc-13.2.0/zlib-ng-2.1.6-kh6kcfeidfzavdehuhd5753qybandckh/lib -Wl -rpath /usr/lib64' --with-boot-ldflags='-Wl -rpath /modules/spack/packages/linux-ubuntu24.04-x86_64_v3/gcc-13.2.0/gcc-9.4.0-ctk4n3223pjnwfvyn6crmzo4isburta7/lib -Wl -rpath /modules/spack/packages/linux-ubuntu24.04-x86_64_v3/gcc-13.2.0/gcc-9.4.0-ctk4n3223pjnwfvyn6crmzo4isburta7/lib64 -Wl -rpath /modules/spack/packages/linux-ubuntu24.04-x86_64/gcc-13.2.0/gcc-runtime-13.2.0-rcyio47gfziipclkomny2nhhsjiqpz65/lib -Wl -rpath /usr/lib -Wl -rpath /modules/spack/packages/linux-ubuntu24.04-x86_64_v3/gcc-13.2.0/gmp-6.2.1-m4mewheojoeylcxszht2kjrh75mamuev/lib -Wl -rpath /modules/spack/packages/linux-ubuntu24.04-x86_64_v3/gcc-13.2.0/mpc-1.1.0-zjjbyrf5u5mdlirfkliakmmx27u2qwb5/lib -Wl -rpath /modules/spack/packages/linux-ubuntu24.04-x86_64_v3/gcc-13.2.0/mpfr-3.1.6-ylap6dhxruv2wz3niolpgthikhvw6ed2/lib -Wl -rpath /modules/spack/packages/linux-ubuntu24.04-x86_64/gcc-13.2.0/zlib-ng-2.1.6-kh6kcfeidfzavdehuhd5753qybandckh/lib -Wl -rpath /usr/lib64 -static-libstdc++ -static-libgcc' --with-build-config=spack]
+        ignore line: [Thread model: posix]
+        ignore line: [gcc version 9.4.0 (Spack GCC) ]
+        ignore line: [COMPILER_PATH=/modules/spack/packages/linux-ubuntu24.04-x86_64_v3/gcc-13.2.0/gcc-9.4.0-ctk4n3223pjnwfvyn6crmzo4isburta7/libexec/gcc/x86_64-pc-linux-gnu/9.4.0/:/modules/spack/packages/linux-ubuntu24.04-x86_64_v3/gcc-13.2.0/gcc-9.4.0-ctk4n3223pjnwfvyn6crmzo4isburta7/libexec/gcc/x86_64-pc-linux-gnu/9.4.0/:/modules/spack/packages/linux-ubuntu24.04-x86_64_v3/gcc-13.2.0/gcc-9.4.0-ctk4n3223pjnwfvyn6crmzo4isburta7/libexec/gcc/x86_64-pc-linux-gnu/:/modules/spack/packages/linux-ubuntu24.04-x86_64_v3/gcc-13.2.0/gcc-9.4.0-ctk4n3223pjnwfvyn6crmzo4isburta7/lib/gcc/x86_64-pc-linux-gnu/9.4.0/:/modules/spack/packages/linux-ubuntu24.04-x86_64_v3/gcc-13.2.0/gcc-9.4.0-ctk4n3223pjnwfvyn6crmzo4isburta7/lib/gcc/x86_64-pc-linux-gnu/]
+        ignore line: [LIBRARY_PATH=/modules/spack/packages/linux-ubuntu24.04-x86_64_v3/gcc-13.2.0/gcc-9.4.0-ctk4n3223pjnwfvyn6crmzo4isburta7/lib/gcc/x86_64-pc-linux-gnu/9.4.0/:/modules/spack/packages/linux-ubuntu24.04-x86_64_v3/gcc-13.2.0/gcc-9.4.0-ctk4n3223pjnwfvyn6crmzo4isburta7/lib/gcc/x86_64-pc-linux-gnu/9.4.0/../../../../lib64/:/lib/x86_64-linux-gnu/:/lib/../lib64/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib64/:/modules/spack/packages/linux-ubuntu24.04-x86_64_v3/gcc-13.2.0/gcc-9.4.0-ctk4n3223pjnwfvyn6crmzo4isburta7/lib/gcc/x86_64-pc-linux-gnu/9.4.0/../../../:/lib/:/usr/lib/]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_71a71' '-mtune=generic' '-march=x86-64']
+        link line: [ /modules/spack/packages/linux-ubuntu24.04-x86_64_v3/gcc-13.2.0/gcc-9.4.0-ctk4n3223pjnwfvyn6crmzo4isburta7/libexec/gcc/x86_64-pc-linux-gnu/9.4.0/collect2 -plugin /modules/spack/packages/linux-ubuntu24.04-x86_64_v3/gcc-13.2.0/gcc-9.4.0-ctk4n3223pjnwfvyn6crmzo4isburta7/libexec/gcc/x86_64-pc-linux-gnu/9.4.0/liblto_plugin.so -plugin-opt=/modules/spack/packages/linux-ubuntu24.04-x86_64_v3/gcc-13.2.0/gcc-9.4.0-ctk4n3223pjnwfvyn6crmzo4isburta7/libexec/gcc/x86_64-pc-linux-gnu/9.4.0/lto-wrapper -plugin-opt=-fresolution=/tmp/ccjEt5Of.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --eh-frame-hdr -m elf_x86_64 -dynamic-linker /lib64/ld-linux-x86-64.so.2 -o cmTC_71a71 /lib/x86_64-linux-gnu/crt1.o /lib/x86_64-linux-gnu/crti.o /modules/spack/packages/linux-ubuntu24.04-x86_64_v3/gcc-13.2.0/gcc-9.4.0-ctk4n3223pjnwfvyn6crmzo4isburta7/lib/gcc/x86_64-pc-linux-gnu/9.4.0/crtbegin.o -L/modules/spack/packages/linux-ubuntu24.04-x86_64_v3/gcc-13.2.0/gcc-9.4.0-ctk4n3223pjnwfvyn6crmzo4isburta7/lib/gcc/x86_64-pc-linux-gnu/9.4.0 -L/modules/spack/packages/linux-ubuntu24.04-x86_64_v3/gcc-13.2.0/gcc-9.4.0-ctk4n3223pjnwfvyn6crmzo4isburta7/lib/gcc/x86_64-pc-linux-gnu/9.4.0/../../../../lib64 -L/lib/x86_64-linux-gnu -L/lib/../lib64 -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib64 -L/modules/spack/packages/linux-ubuntu24.04-x86_64_v3/gcc-13.2.0/gcc-9.4.0-ctk4n3223pjnwfvyn6crmzo4isburta7/lib/gcc/x86_64-pc-linux-gnu/9.4.0/../../.. -rpath /modules/spack/packages/linux-ubuntu24.04-x86_64_v3/gcc-13.2.0/gcc-9.4.0-ctk4n3223pjnwfvyn6crmzo4isburta7/lib64 -v CMakeFiles/cmTC_71a71.dir/CMakeCCompilerABI.c.o -lgcc --push-state --as-needed -lgcc_s --pop-state -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /modules/spack/packages/linux-ubuntu24.04-x86_64_v3/gcc-13.2.0/gcc-9.4.0-ctk4n3223pjnwfvyn6crmzo4isburta7/lib/gcc/x86_64-pc-linux-gnu/9.4.0/crtend.o /lib/x86_64-linux-gnu/crtn.o]
+          arg [/modules/spack/packages/linux-ubuntu24.04-x86_64_v3/gcc-13.2.0/gcc-9.4.0-ctk4n3223pjnwfvyn6crmzo4isburta7/libexec/gcc/x86_64-pc-linux-gnu/9.4.0/collect2] ==> ignore
+          arg [-plugin] ==> ignore
+          arg [/modules/spack/packages/linux-ubuntu24.04-x86_64_v3/gcc-13.2.0/gcc-9.4.0-ctk4n3223pjnwfvyn6crmzo4isburta7/libexec/gcc/x86_64-pc-linux-gnu/9.4.0/liblto_plugin.so] ==> ignore
+          arg [-plugin-opt=/modules/spack/packages/linux-ubuntu24.04-x86_64_v3/gcc-13.2.0/gcc-9.4.0-ctk4n3223pjnwfvyn6crmzo4isburta7/libexec/gcc/x86_64-pc-linux-gnu/9.4.0/lto-wrapper] ==> ignore
+          arg [-plugin-opt=-fresolution=/tmp/ccjEt5Of.res] ==> ignore
+          arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+          arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+          arg [-plugin-opt=-pass-through=-lc] ==> ignore
+          arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+          arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+          arg [--eh-frame-hdr] ==> ignore
+          arg [-m] ==> ignore
+          arg [elf_x86_64] ==> ignore
+          arg [-dynamic-linker] ==> ignore
+          arg [/lib64/ld-linux-x86-64.so.2] ==> ignore
+          arg [-o] ==> ignore
+          arg [cmTC_71a71] ==> ignore
+          arg [/lib/x86_64-linux-gnu/crt1.o] ==> obj [/lib/x86_64-linux-gnu/crt1.o]
+          arg [/lib/x86_64-linux-gnu/crti.o] ==> obj [/lib/x86_64-linux-gnu/crti.o]
+          arg [/modules/spack/packages/linux-ubuntu24.04-x86_64_v3/gcc-13.2.0/gcc-9.4.0-ctk4n3223pjnwfvyn6crmzo4isburta7/lib/gcc/x86_64-pc-linux-gnu/9.4.0/crtbegin.o] ==> obj [/modules/spack/packages/linux-ubuntu24.04-x86_64_v3/gcc-13.2.0/gcc-9.4.0-ctk4n3223pjnwfvyn6crmzo4isburta7/lib/gcc/x86_64-pc-linux-gnu/9.4.0/crtbegin.o]
+          arg [-L/modules/spack/packages/linux-ubuntu24.04-x86_64_v3/gcc-13.2.0/gcc-9.4.0-ctk4n3223pjnwfvyn6crmzo4isburta7/lib/gcc/x86_64-pc-linux-gnu/9.4.0] ==> dir [/modules/spack/packages/linux-ubuntu24.04-x86_64_v3/gcc-13.2.0/gcc-9.4.0-ctk4n3223pjnwfvyn6crmzo4isburta7/lib/gcc/x86_64-pc-linux-gnu/9.4.0]
+          arg [-L/modules/spack/packages/linux-ubuntu24.04-x86_64_v3/gcc-13.2.0/gcc-9.4.0-ctk4n3223pjnwfvyn6crmzo4isburta7/lib/gcc/x86_64-pc-linux-gnu/9.4.0/../../../../lib64] ==> dir [/modules/spack/packages/linux-ubuntu24.04-x86_64_v3/gcc-13.2.0/gcc-9.4.0-ctk4n3223pjnwfvyn6crmzo4isburta7/lib/gcc/x86_64-pc-linux-gnu/9.4.0/../../../../lib64]
+          arg [-L/lib/x86_64-linux-gnu] ==> dir [/lib/x86_64-linux-gnu]
+          arg [-L/lib/../lib64] ==> dir [/lib/../lib64]
+          arg [-L/usr/lib/x86_64-linux-gnu] ==> dir [/usr/lib/x86_64-linux-gnu]
+          arg [-L/usr/lib/../lib64] ==> dir [/usr/lib/../lib64]
+          arg [-L/modules/spack/packages/linux-ubuntu24.04-x86_64_v3/gcc-13.2.0/gcc-9.4.0-ctk4n3223pjnwfvyn6crmzo4isburta7/lib/gcc/x86_64-pc-linux-gnu/9.4.0/../../..] ==> dir [/modules/spack/packages/linux-ubuntu24.04-x86_64_v3/gcc-13.2.0/gcc-9.4.0-ctk4n3223pjnwfvyn6crmzo4isburta7/lib/gcc/x86_64-pc-linux-gnu/9.4.0/../../..]
+          arg [-rpath] ==> ignore
+          arg [/modules/spack/packages/linux-ubuntu24.04-x86_64_v3/gcc-13.2.0/gcc-9.4.0-ctk4n3223pjnwfvyn6crmzo4isburta7/lib64] ==> ignore
+          arg [-v] ==> ignore
+          arg [CMakeFiles/cmTC_71a71.dir/CMakeCCompilerABI.c.o] ==> ignore
+          arg [-lgcc] ==> lib [gcc]
+          arg [--push-state] ==> ignore
+          arg [--as-needed] ==> ignore
+          arg [-lgcc_s] ==> lib [gcc_s]
+          arg [--pop-state] ==> ignore
+          arg [-lc] ==> lib [c]
+          arg [-lgcc] ==> lib [gcc]
+          arg [--push-state] ==> ignore
+          arg [--as-needed] ==> ignore
+          arg [-lgcc_s] ==> lib [gcc_s]
+          arg [--pop-state] ==> ignore
+          arg [/modules/spack/packages/linux-ubuntu24.04-x86_64_v3/gcc-13.2.0/gcc-9.4.0-ctk4n3223pjnwfvyn6crmzo4isburta7/lib/gcc/x86_64-pc-linux-gnu/9.4.0/crtend.o] ==> obj [/modules/spack/packages/linux-ubuntu24.04-x86_64_v3/gcc-13.2.0/gcc-9.4.0-ctk4n3223pjnwfvyn6crmzo4isburta7/lib/gcc/x86_64-pc-linux-gnu/9.4.0/crtend.o]
+          arg [/lib/x86_64-linux-gnu/crtn.o] ==> obj [/lib/x86_64-linux-gnu/crtn.o]
+        ignore line: [collect2 version 9.4.0]
+        ignore line: [/usr/bin/ld -plugin /modules/spack/packages/linux-ubuntu24.04-x86_64_v3/gcc-13.2.0/gcc-9.4.0-ctk4n3223pjnwfvyn6crmzo4isburta7/libexec/gcc/x86_64-pc-linux-gnu/9.4.0/liblto_plugin.so -plugin-opt=/modules/spack/packages/linux-ubuntu24.04-x86_64_v3/gcc-13.2.0/gcc-9.4.0-ctk4n3223pjnwfvyn6crmzo4isburta7/libexec/gcc/x86_64-pc-linux-gnu/9.4.0/lto-wrapper -plugin-opt=-fresolution=/tmp/ccjEt5Of.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --eh-frame-hdr -m elf_x86_64 -dynamic-linker /lib64/ld-linux-x86-64.so.2 -o cmTC_71a71 /lib/x86_64-linux-gnu/crt1.o /lib/x86_64-linux-gnu/crti.o /modules/spack/packages/linux-ubuntu24.04-x86_64_v3/gcc-13.2.0/gcc-9.4.0-ctk4n3223pjnwfvyn6crmzo4isburta7/lib/gcc/x86_64-pc-linux-gnu/9.4.0/crtbegin.o -L/modules/spack/packages/linux-ubuntu24.04-x86_64_v3/gcc-13.2.0/gcc-9.4.0-ctk4n3223pjnwfvyn6crmzo4isburta7/lib/gcc/x86_64-pc-linux-gnu/9.4.0 -L/modules/spack/packages/linux-ubuntu24.04-x86_64_v3/gcc-13.2.0/gcc-9.4.0-ctk4n3223pjnwfvyn6crmzo4isburta7/lib/gcc/x86_64-pc-linux-gnu/9.4.0/../../../../lib64 -L/lib/x86_64-linux-gnu -L/lib/../lib64 -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib64 -L/modules/spack/packages/linux-ubuntu24.04-x86_64_v3/gcc-13.2.0/gcc-9.4.0-ctk4n3223pjnwfvyn6crmzo4isburta7/lib/gcc/x86_64-pc-linux-gnu/9.4.0/../../.. -rpath /modules/spack/packages/linux-ubuntu24.04-x86_64_v3/gcc-13.2.0/gcc-9.4.0-ctk4n3223pjnwfvyn6crmzo4isburta7/lib64 -v CMakeFiles/cmTC_71a71.dir/CMakeCCompilerABI.c.o -lgcc --push-state --as-needed -lgcc_s --pop-state -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /modules/spack/packages/linux-ubuntu24.04-x86_64_v3/gcc-13.2.0/gcc-9.4.0-ctk4n3223pjnwfvyn6crmzo4isburta7/lib/gcc/x86_64-pc-linux-gnu/9.4.0/crtend.o /lib/x86_64-linux-gnu/crtn.o]
+        linker tool for 'C': /usr/bin/ld
+        collapse library dir [/modules/spack/packages/linux-ubuntu24.04-x86_64_v3/gcc-13.2.0/gcc-9.4.0-ctk4n3223pjnwfvyn6crmzo4isburta7/lib/gcc/x86_64-pc-linux-gnu/9.4.0] ==> [/modules/spack/packages/linux-ubuntu24.04-x86_64_v3/gcc-13.2.0/gcc-9.4.0-ctk4n3223pjnwfvyn6crmzo4isburta7/lib/gcc/x86_64-pc-linux-gnu/9.4.0]
+        collapse library dir [/modules/spack/packages/linux-ubuntu24.04-x86_64_v3/gcc-13.2.0/gcc-9.4.0-ctk4n3223pjnwfvyn6crmzo4isburta7/lib/gcc/x86_64-pc-linux-gnu/9.4.0/../../../../lib64] ==> [/modules/spack/packages/linux-ubuntu24.04-x86_64_v3/gcc-13.2.0/gcc-9.4.0-ctk4n3223pjnwfvyn6crmzo4isburta7/lib64]
+        collapse library dir [/lib/x86_64-linux-gnu] ==> [/lib/x86_64-linux-gnu]
+        collapse library dir [/lib/../lib64] ==> [/lib64]
+        collapse library dir [/usr/lib/x86_64-linux-gnu] ==> [/usr/lib/x86_64-linux-gnu]
+        collapse library dir [/usr/lib/../lib64] ==> [/usr/lib64]
+        collapse library dir [/modules/spack/packages/linux-ubuntu24.04-x86_64_v3/gcc-13.2.0/gcc-9.4.0-ctk4n3223pjnwfvyn6crmzo4isburta7/lib/gcc/x86_64-pc-linux-gnu/9.4.0/../../..] ==> [/modules/spack/packages/linux-ubuntu24.04-x86_64_v3/gcc-13.2.0/gcc-9.4.0-ctk4n3223pjnwfvyn6crmzo4isburta7/lib]
+        implicit libs: [gcc;gcc_s;c;gcc;gcc_s]
+        implicit objs: [/lib/x86_64-linux-gnu/crt1.o;/lib/x86_64-linux-gnu/crti.o;/modules/spack/packages/linux-ubuntu24.04-x86_64_v3/gcc-13.2.0/gcc-9.4.0-ctk4n3223pjnwfvyn6crmzo4isburta7/lib/gcc/x86_64-pc-linux-gnu/9.4.0/crtbegin.o;/modules/spack/packages/linux-ubuntu24.04-x86_64_v3/gcc-13.2.0/gcc-9.4.0-ctk4n3223pjnwfvyn6crmzo4isburta7/lib/gcc/x86_64-pc-linux-gnu/9.4.0/crtend.o;/lib/x86_64-linux-gnu/crtn.o]
+        implicit dirs: [/modules/spack/packages/linux-ubuntu24.04-x86_64_v3/gcc-13.2.0/gcc-9.4.0-ctk4n3223pjnwfvyn6crmzo4isburta7/lib/gcc/x86_64-pc-linux-gnu/9.4.0;/modules/spack/packages/linux-ubuntu24.04-x86_64_v3/gcc-13.2.0/gcc-9.4.0-ctk4n3223pjnwfvyn6crmzo4isburta7/lib64;/lib/x86_64-linux-gnu;/lib64;/usr/lib/x86_64-linux-gnu;/usr/lib64;/modules/spack/packages/linux-ubuntu24.04-x86_64_v3/gcc-13.2.0/gcc-9.4.0-ctk4n3223pjnwfvyn6crmzo4isburta7/lib]
+        implicit fwks: []
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/work/pi_chuangg_umass_edu/xiaowen/env/partslip/share/cmake-3.31/Modules/Internal/CMakeDetermineLinkerId.cmake:40 (message)"
+      - "/work/pi_chuangg_umass_edu/xiaowen/env/partslip/share/cmake-3.31/Modules/CMakeDetermineCompilerABI.cmake:255 (cmake_determine_linker_id)"
+      - "/work/pi_chuangg_umass_edu/xiaowen/env/partslip/share/cmake-3.31/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:5 (project)"
+    message: |
+      Running the C compiler's linker: "/usr/bin/ld" "-v"
+      GNU ld (GNU Binutils for Ubuntu) 2.42
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/work/pi_chuangg_umass_edu/xiaowen/env/partslip/share/cmake-3.31/Modules/CMakeDetermineCompilerABI.cmake:74 (try_compile)"
+      - "/work/pi_chuangg_umass_edu/xiaowen/env/partslip/share/cmake-3.31/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:5 (project)"
+    checks:
+      - "Detecting CXX compiler ABI info"
+    directories:
+      source: "/work/pi_chuangg_umass_edu/xiaowen/PartSLIP2/partition/cut-pursuit/build/CMakeFiles/CMakeScratch/TryCompile-AM64PL"
+      binary: "/work/pi_chuangg_umass_edu/xiaowen/PartSLIP2/partition/cut-pursuit/build/CMakeFiles/CMakeScratch/TryCompile-AM64PL"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: ""
+      CMAKE_CXX_SCAN_FOR_MODULES: "OFF"
+      CMAKE_EXE_LINKER_FLAGS: ""
+    buildResult:
+      variable: "CMAKE_CXX_ABI_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: '/work/pi_chuangg_umass_edu/xiaowen/PartSLIP2/partition/cut-pursuit/build/CMakeFiles/CMakeScratch/TryCompile-AM64PL'
+        
+        Run Build Command(s): /work/pi_chuangg_umass_edu/xiaowen/env/partslip/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_1d880/fast
+        /usr/bin/gmake  -f CMakeFiles/cmTC_1d880.dir/build.make CMakeFiles/cmTC_1d880.dir/build
+        gmake[1]: Entering directory '/work/pi_chuangg_umass_edu/xiaowen/PartSLIP2/partition/cut-pursuit/build/CMakeFiles/CMakeScratch/TryCompile-AM64PL'
+        Building CXX object CMakeFiles/cmTC_1d880.dir/CMakeCXXCompilerABI.cpp.o
+        /modules/spack/packages/linux-ubuntu24.04-x86_64_v3/gcc-13.2.0/gcc-9.4.0-ctk4n3223pjnwfvyn6crmzo4isburta7/bin/c++   -v -o CMakeFiles/cmTC_1d880.dir/CMakeCXXCompilerABI.cpp.o -c /work/pi_chuangg_umass_edu/xiaowen/env/partslip/share/cmake-3.31/Modules/CMakeCXXCompilerABI.cpp
+        Reading specs from /modules/spack/packages/linux-ubuntu24.04-x86_64_v3/gcc-13.2.0/gcc-9.4.0-ctk4n3223pjnwfvyn6crmzo4isburta7/lib/gcc/x86_64-pc-linux-gnu/9.4.0/specs
+        COLLECT_GCC=/modules/spack/packages/linux-ubuntu24.04-x86_64_v3/gcc-13.2.0/gcc-9.4.0-ctk4n3223pjnwfvyn6crmzo4isburta7/bin/c++
+        Target: x86_64-pc-linux-gnu
+        Configured with: /tmp/package-maintainer/spack-stage/spack-stage-gcc-9.4.0-ctk4n3223pjnwfvyn6crmzo4isburta7/spack-src/configure --prefix=/modules/spack/packages/linux-ubuntu24.04-x86_64_v3/gcc-13.2.0/gcc-9.4.0-ctk4n3223pjnwfvyn6crmzo4isburta7 --with-pkgversion='Spack GCC' --with-bugurl=https://github.com/spack/spack/issues --disable-multilib --enable-languages=c,c++,fortran --disable-nls --disable-canonical-system-headers --with-system-zlib --enable-bootstrap --with-mpfr-include=/modules/spack/packages/linux-ubuntu24.04-x86_64_v3/gcc-13.2.0/mpfr-3.1.6-ylap6dhxruv2wz3niolpgthikhvw6ed2/include --with-mpfr-lib=/modules/spack/packages/linux-ubuntu24.04-x86_64_v3/gcc-13.2.0/mpfr-3.1.6-ylap6dhxruv2wz3niolpgthikhvw6ed2/lib --with-gmp-include=/modules/spack/packages/linux-ubuntu24.04-x86_64_v3/gcc-13.2.0/gmp-6.2.1-m4mewheojoeylcxszht2kjrh75mamuev/include --with-gmp-lib=/modules/spack/packages/linux-ubuntu24.04-x86_64_v3/gcc-13.2.0/gmp-6.2.1-m4mewheojoeylcxszht2kjrh75mamuev/lib --with-mpc-include=/modules/spack/packages/linux-ubuntu24.04-x86_64_v3/gcc-13.2.0/mpc-1.1.0-zjjbyrf5u5mdlirfkliakmmx27u2qwb5/include --with-mpc-lib=/modules/spack/packages/linux-ubuntu24.04-x86_64_v3/gcc-13.2.0/mpc-1.1.0-zjjbyrf5u5mdlirfkliakmmx27u2qwb5/lib --without-isl --with-stage1-ldflags='-Wl,-rpath,/modules/spack/packages/linux-ubuntu24.04-x86_64_v3/gcc-13.2.0/gcc-9.4.0-ctk4n3223pjnwfvyn6crmzo4isburta7/lib -Wl,-rpath,/modules/spack/packages/linux-ubuntu24.04-x86_64_v3/gcc-13.2.0/gcc-9.4.0-ctk4n3223pjnwfvyn6crmzo4isburta7/lib64 -Wl,-rpath,/modules/spack/packages/linux-ubuntu24.04-x86_64/gcc-13.2.0/gcc-runtime-13.2.0-rcyio47gfziipclkomny2nhhsjiqpz65/lib -Wl,-rpath,/usr/lib -Wl,-rpath,/modules/spack/packages/linux-ubuntu24.04-x86_64_v3/gcc-13.2.0/gmp-6.2.1-m4mewheojoeylcxszht2kjrh75mamuev/lib -Wl,-rpath,/modules/spack/packages/linux-ubuntu24.04-x86_64_v3/gcc-13.2.0/mpc-1.1.0-zjjbyrf5u5mdlirfkliakmmx27u2qwb5/lib -Wl,-rpath,/modules/spack/packages/linux-ubuntu24.04-x86_64_v3/gcc-13.2.0/mpfr-3.1.6-ylap6dhxruv2wz3niolpgthikhvw6ed2/lib -Wl,-rpath,/modules/spack/packages/linux-ubuntu24.04-x86_64/gcc-13.2.0/zlib-ng-2.1.6-kh6kcfeidfzavdehuhd5753qybandckh/lib -Wl,-rpath,/usr/lib64' --with-boot-ldflags='-Wl,-rpath,/modules/spack/packages/linux-ubuntu24.04-x86_64_v3/gcc-13.2.0/gcc-9.4.0-ctk4n3223pjnwfvyn6crmzo4isburta7/lib -Wl,-rpath,/modules/spack/packages/linux-ubuntu24.04-x86_64_v3/gcc-13.2.0/gcc-9.4.0-ctk4n3223pjnwfvyn6crmzo4isburta7/lib64 -Wl,-rpath,/modules/spack/packages/linux-ubuntu24.04-x86_64/gcc-13.2.0/gcc-runtime-13.2.0-rcyio47gfziipclkomny2nhhsjiqpz65/lib -Wl,-rpath,/usr/lib -Wl,-rpath,/modules/spack/packages/linux-ubuntu24.04-x86_64_v3/gcc-13.2.0/gmp-6.2.1-m4mewheojoeylcxszht2kjrh75mamuev/lib -Wl,-rpath,/modules/spack/packages/linux-ubuntu24.04-x86_64_v3/gcc-13.2.0/mpc-1.1.0-zjjbyrf5u5mdlirfkliakmmx27u2qwb5/lib -Wl,-rpath,/modules/spack/packages/linux-ubuntu24.04-x86_64_v3/gcc-13.2.0/mpfr-3.1.6-ylap6dhxruv2wz3niolpgthikhvw6ed2/lib -Wl,-rpath,/modules/spack/packages/linux-ubuntu24.04-x86_64/gcc-13.2.0/zlib-ng-2.1.6-kh6kcfeidfzavdehuhd5753qybandckh/lib -Wl,-rpath,/usr/lib64 -static-libstdc++ -static-libgcc' --with-build-config=spack
+        Thread model: posix
+        gcc version 9.4.0 (Spack GCC) 
+        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_1d880.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
+         /modules/spack/packages/linux-ubuntu24.04-x86_64_v3/gcc-13.2.0/gcc-9.4.0-ctk4n3223pjnwfvyn6crmzo4isburta7/libexec/gcc/x86_64-pc-linux-gnu/9.4.0/cc1plus -quiet -v -imultiarch x86_64-linux-gnu -D_GNU_SOURCE /work/pi_chuangg_umass_edu/xiaowen/env/partslip/share/cmake-3.31/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpbase CMakeCXXCompilerABI.cpp -mtune=generic -march=x86-64 -auxbase-strip CMakeFiles/cmTC_1d880.dir/CMakeCXXCompilerABI.cpp.o -version -o /tmp/ccmCVD03.s
+        GNU C++14 (Spack GCC) version 9.4.0 (x86_64-pc-linux-gnu)
+        	compiled by GNU C version 9.4.0, GMP version 6.2.1, MPFR version 3.1.6-p2, MPC version 1.1.0, isl version none
+        GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+        ignoring nonexistent directory "/usr/local/include/x86_64-linux-gnu"
+        ignoring nonexistent directory "/modules/spack/packages/linux-ubuntu24.04-x86_64_v3/gcc-13.2.0/gcc-9.4.0-ctk4n3223pjnwfvyn6crmzo4isburta7/lib/gcc/x86_64-pc-linux-gnu/9.4.0/../../../../x86_64-pc-linux-gnu/include"
+        #include "..." search starts here:
+        #include <...> search starts here:
+         /modules/spack/packages/linux-ubuntu24.04-x86_64_v3/gcc-13.2.0/gcc-9.4.0-ctk4n3223pjnwfvyn6crmzo4isburta7/lib/gcc/x86_64-pc-linux-gnu/9.4.0/../../../../include/c++/9.4.0
+         /modules/spack/packages/linux-ubuntu24.04-x86_64_v3/gcc-13.2.0/gcc-9.4.0-ctk4n3223pjnwfvyn6crmzo4isburta7/lib/gcc/x86_64-pc-linux-gnu/9.4.0/../../../../include/c++/9.4.0/x86_64-pc-linux-gnu
+         /modules/spack/packages/linux-ubuntu24.04-x86_64_v3/gcc-13.2.0/gcc-9.4.0-ctk4n3223pjnwfvyn6crmzo4isburta7/lib/gcc/x86_64-pc-linux-gnu/9.4.0/../../../../include/c++/9.4.0/backward
+         /modules/spack/packages/linux-ubuntu24.04-x86_64_v3/gcc-13.2.0/gcc-9.4.0-ctk4n3223pjnwfvyn6crmzo4isburta7/lib/gcc/x86_64-pc-linux-gnu/9.4.0/include
+         /usr/local/include
+         /modules/spack/packages/linux-ubuntu24.04-x86_64_v3/gcc-13.2.0/gcc-9.4.0-ctk4n3223pjnwfvyn6crmzo4isburta7/include
+         /modules/spack/packages/linux-ubuntu24.04-x86_64_v3/gcc-13.2.0/gcc-9.4.0-ctk4n3223pjnwfvyn6crmzo4isburta7/lib/gcc/x86_64-pc-linux-gnu/9.4.0/include-fixed
+         /usr/include/x86_64-linux-gnu
+         /usr/include
+        End of search list.
+        GNU C++14 (Spack GCC) version 9.4.0 (x86_64-pc-linux-gnu)
+        	compiled by GNU C version 9.4.0, GMP version 6.2.1, MPFR version 3.1.6-p2, MPC version 1.1.0, isl version none
+        GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+        Compiler executable checksum: 4851046a3f8d7af3f1e5ae171ef4afb7
+        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_1d880.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
+         as -v --64 -o CMakeFiles/cmTC_1d880.dir/CMakeCXXCompilerABI.cpp.o /tmp/ccmCVD03.s
+        GNU assembler version 2.42 (x86_64-linux-gnu) using BFD version (GNU Binutils for Ubuntu) 2.42
+        COMPILER_PATH=/modules/spack/packages/linux-ubuntu24.04-x86_64_v3/gcc-13.2.0/gcc-9.4.0-ctk4n3223pjnwfvyn6crmzo4isburta7/libexec/gcc/x86_64-pc-linux-gnu/9.4.0/:/modules/spack/packages/linux-ubuntu24.04-x86_64_v3/gcc-13.2.0/gcc-9.4.0-ctk4n3223pjnwfvyn6crmzo4isburta7/libexec/gcc/x86_64-pc-linux-gnu/9.4.0/:/modules/spack/packages/linux-ubuntu24.04-x86_64_v3/gcc-13.2.0/gcc-9.4.0-ctk4n3223pjnwfvyn6crmzo4isburta7/libexec/gcc/x86_64-pc-linux-gnu/:/modules/spack/packages/linux-ubuntu24.04-x86_64_v3/gcc-13.2.0/gcc-9.4.0-ctk4n3223pjnwfvyn6crmzo4isburta7/lib/gcc/x86_64-pc-linux-gnu/9.4.0/:/modules/spack/packages/linux-ubuntu24.04-x86_64_v3/gcc-13.2.0/gcc-9.4.0-ctk4n3223pjnwfvyn6crmzo4isburta7/lib/gcc/x86_64-pc-linux-gnu/
+        LIBRARY_PATH=/modules/spack/packages/linux-ubuntu24.04-x86_64_v3/gcc-13.2.0/gcc-9.4.0-ctk4n3223pjnwfvyn6crmzo4isburta7/lib/gcc/x86_64-pc-linux-gnu/9.4.0/:/modules/spack/packages/linux-ubuntu24.04-x86_64_v3/gcc-13.2.0/gcc-9.4.0-ctk4n3223pjnwfvyn6crmzo4isburta7/lib/gcc/x86_64-pc-linux-gnu/9.4.0/../../../../lib64/:/lib/x86_64-linux-gnu/:/lib/../lib64/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib64/:/modules/spack/packages/linux-ubuntu24.04-x86_64_v3/gcc-13.2.0/gcc-9.4.0-ctk4n3223pjnwfvyn6crmzo4isburta7/lib/gcc/x86_64-pc-linux-gnu/9.4.0/../../../:/lib/:/usr/lib/
+        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_1d880.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
+        Linking CXX executable cmTC_1d880
+        /work/pi_chuangg_umass_edu/xiaowen/env/partslip/bin/cmake -E cmake_link_script CMakeFiles/cmTC_1d880.dir/link.txt --verbose=1
+        Reading specs from /modules/spack/packages/linux-ubuntu24.04-x86_64_v3/gcc-13.2.0/gcc-9.4.0-ctk4n3223pjnwfvyn6crmzo4isburta7/lib/gcc/x86_64-pc-linux-gnu/9.4.0/specs
+        COLLECT_GCC=/modules/spack/packages/linux-ubuntu24.04-x86_64_v3/gcc-13.2.0/gcc-9.4.0-ctk4n3223pjnwfvyn6crmzo4isburta7/bin/c++
+        COLLECT_LTO_WRAPPER=/modules/spack/packages/linux-ubuntu24.04-x86_64_v3/gcc-13.2.0/gcc-9.4.0-ctk4n3223pjnwfvyn6crmzo4isburta7/libexec/gcc/x86_64-pc-linux-gnu/9.4.0/lto-wrapper
+        Target: x86_64-pc-linux-gnu
+        Configured with: /tmp/package-maintainer/spack-stage/spack-stage-gcc-9.4.0-ctk4n3223pjnwfvyn6crmzo4isburta7/spack-src/configure --prefix=/modules/spack/packages/linux-ubuntu24.04-x86_64_v3/gcc-13.2.0/gcc-9.4.0-ctk4n3223pjnwfvyn6crmzo4isburta7 --with-pkgversion='Spack GCC' --with-bugurl=https://github.com/spack/spack/issues --disable-multilib --enable-languages=c,c++,fortran --disable-nls --disable-canonical-system-headers --with-system-zlib --enable-bootstrap --with-mpfr-include=/modules/spack/packages/linux-ubuntu24.04-x86_64_v3/gcc-13.2.0/mpfr-3.1.6-ylap6dhxruv2wz3niolpgthikhvw6ed2/include --with-mpfr-lib=/modules/spack/packages/linux-ubuntu24.04-x86_64_v3/gcc-13.2.0/mpfr-3.1.6-ylap6dhxruv2wz3niolpgthikhvw6ed2/lib --with-gmp-include=/modules/spack/packages/linux-ubuntu24.04-x86_64_v3/gcc-13.2.0/gmp-6.2.1-m4mewheojoeylcxszht2kjrh75mamuev/include --with-gmp-lib=/modules/spack/packages/linux-ubuntu24.04-x86_64_v3/gcc-13.2.0/gmp-6.2.1-m4mewheojoeylcxszht2kjrh75mamuev/lib --with-mpc-include=/modules/spack/packages/linux-ubuntu24.04-x86_64_v3/gcc-13.2.0/mpc-1.1.0-zjjbyrf5u5mdlirfkliakmmx27u2qwb5/include --with-mpc-lib=/modules/spack/packages/linux-ubuntu24.04-x86_64_v3/gcc-13.2.0/mpc-1.1.0-zjjbyrf5u5mdlirfkliakmmx27u2qwb5/lib --without-isl --with-stage1-ldflags='-Wl,-rpath,/modules/spack/packages/linux-ubuntu24.04-x86_64_v3/gcc-13.2.0/gcc-9.4.0-ctk4n3223pjnwfvyn6crmzo4isburta7/lib -Wl,-rpath,/modules/spack/packages/linux-ubuntu24.04-x86_64_v3/gcc-13.2.0/gcc-9.4.0-ctk4n3223pjnwfvyn6crmzo4isburta7/lib64 -Wl,-rpath,/modules/spack/packages/linux-ubuntu24.04-x86_64/gcc-13.2.0/gcc-runtime-13.2.0-rcyio47gfziipclkomny2nhhsjiqpz65/lib -Wl,-rpath,/usr/lib -Wl,-rpath,/modules/spack/packages/linux-ubuntu24.04-x86_64_v3/gcc-13.2.0/gmp-6.2.1-m4mewheojoeylcxszht2kjrh75mamuev/lib -Wl,-rpath,/modules/spack/packages/linux-ubuntu24.04-x86_64_v3/gcc-13.2.0/mpc-1.1.0-zjjbyrf5u5mdlirfkliakmmx27u2qwb5/lib -Wl,-rpath,/modules/spack/packages/linux-ubuntu24.04-x86_64_v3/gcc-13.2.0/mpfr-3.1.6-ylap6dhxruv2wz3niolpgthikhvw6ed2/lib -Wl,-rpath,/modules/spack/packages/linux-ubuntu24.04-x86_64/gcc-13.2.0/zlib-ng-2.1.6-kh6kcfeidfzavdehuhd5753qybandckh/lib -Wl,-rpath,/usr/lib64' --with-boot-ldflags='-Wl,-rpath,/modules/spack/packages/linux-ubuntu24.04-x86_64_v3/gcc-13.2.0/gcc-9.4.0-ctk4n3223pjnwfvyn6crmzo4isburta7/lib -Wl,-rpath,/modules/spack/packages/linux-ubuntu24.04-x86_64_v3/gcc-13.2.0/gcc-9.4.0-ctk4n3223pjnwfvyn6crmzo4isburta7/lib64 -Wl,-rpath,/modules/spack/packages/linux-ubuntu24.04-x86_64/gcc-13.2.0/gcc-runtime-13.2.0-rcyio47gfziipclkomny2nhhsjiqpz65/lib -Wl,-rpath,/usr/lib -Wl,-rpath,/modules/spack/packages/linux-ubuntu24.04-x86_64_v3/gcc-13.2.0/gmp-6.2.1-m4mewheojoeylcxszht2kjrh75mamuev/lib -Wl,-rpath,/modules/spack/packages/linux-ubuntu24.04-x86_64_v3/gcc-13.2.0/mpc-1.1.0-zjjbyrf5u5mdlirfkliakmmx27u2qwb5/lib -Wl,-rpath,/modules/spack/packages/linux-ubuntu24.04-x86_64_v3/gcc-13.2.0/mpfr-3.1.6-ylap6dhxruv2wz3niolpgthikhvw6ed2/lib -Wl,-rpath,/modules/spack/packages/linux-ubuntu24.04-x86_64/gcc-13.2.0/zlib-ng-2.1.6-kh6kcfeidfzavdehuhd5753qybandckh/lib -Wl,-rpath,/usr/lib64 -static-libstdc++ -static-libgcc' --with-build-config=spack
+        Thread model: posix
+        gcc version 9.4.0 (Spack GCC) 
+        COMPILER_PATH=/modules/spack/packages/linux-ubuntu24.04-x86_64_v3/gcc-13.2.0/gcc-9.4.0-ctk4n3223pjnwfvyn6crmzo4isburta7/libexec/gcc/x86_64-pc-linux-gnu/9.4.0/:/modules/spack/packages/linux-ubuntu24.04-x86_64_v3/gcc-13.2.0/gcc-9.4.0-ctk4n3223pjnwfvyn6crmzo4isburta7/libexec/gcc/x86_64-pc-linux-gnu/9.4.0/:/modules/spack/packages/linux-ubuntu24.04-x86_64_v3/gcc-13.2.0/gcc-9.4.0-ctk4n3223pjnwfvyn6crmzo4isburta7/libexec/gcc/x86_64-pc-linux-gnu/:/modules/spack/packages/linux-ubuntu24.04-x86_64_v3/gcc-13.2.0/gcc-9.4.0-ctk4n3223pjnwfvyn6crmzo4isburta7/lib/gcc/x86_64-pc-linux-gnu/9.4.0/:/modules/spack/packages/linux-ubuntu24.04-x86_64_v3/gcc-13.2.0/gcc-9.4.0-ctk4n3223pjnwfvyn6crmzo4isburta7/lib/gcc/x86_64-pc-linux-gnu/
+        LIBRARY_PATH=/modules/spack/packages/linux-ubuntu24.04-x86_64_v3/gcc-13.2.0/gcc-9.4.0-ctk4n3223pjnwfvyn6crmzo4isburta7/lib/gcc/x86_64-pc-linux-gnu/9.4.0/:/modules/spack/packages/linux-ubuntu24.04-x86_64_v3/gcc-13.2.0/gcc-9.4.0-ctk4n3223pjnwfvyn6crmzo4isburta7/lib/gcc/x86_64-pc-linux-gnu/9.4.0/../../../../lib64/:/lib/x86_64-linux-gnu/:/lib/../lib64/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib64/:/modules/spack/packages/linux-ubuntu24.04-x86_64_v3/gcc-13.2.0/gcc-9.4.0-ctk4n3223pjnwfvyn6crmzo4isburta7/lib/gcc/x86_64-pc-linux-gnu/9.4.0/../../../:/lib/:/usr/lib/
+        COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_1d880' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
+         /modules/spack/packages/linux-ubuntu24.04-x86_64_v3/gcc-13.2.0/gcc-9.4.0-ctk4n3223pjnwfvyn6crmzo4isburta7/libexec/gcc/x86_64-pc-linux-gnu/9.4.0/collect2 -plugin /modules/spack/packages/linux-ubuntu24.04-x86_64_v3/gcc-13.2.0/gcc-9.4.0-ctk4n3223pjnwfvyn6crmzo4isburta7/libexec/gcc/x86_64-pc-linux-gnu/9.4.0/liblto_plugin.so -plugin-opt=/modules/spack/packages/linux-ubuntu24.04-x86_64_v3/gcc-13.2.0/gcc-9.4.0-ctk4n3223pjnwfvyn6crmzo4isburta7/libexec/gcc/x86_64-pc-linux-gnu/9.4.0/lto-wrapper -plugin-opt=-fresolution=/tmp/ccOaMiGM.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --eh-frame-hdr -m elf_x86_64 -dynamic-linker /lib64/ld-linux-x86-64.so.2 -o cmTC_1d880 /lib/x86_64-linux-gnu/crt1.o /lib/x86_64-linux-gnu/crti.o /modules/spack/packages/linux-ubuntu24.04-x86_64_v3/gcc-13.2.0/gcc-9.4.0-ctk4n3223pjnwfvyn6crmzo4isburta7/lib/gcc/x86_64-pc-linux-gnu/9.4.0/crtbegin.o -L/modules/spack/packages/linux-ubuntu24.04-x86_64_v3/gcc-13.2.0/gcc-9.4.0-ctk4n3223pjnwfvyn6crmzo4isburta7/lib/gcc/x86_64-pc-linux-gnu/9.4.0 -L/modules/spack/packages/linux-ubuntu24.04-x86_64_v3/gcc-13.2.0/gcc-9.4.0-ctk4n3223pjnwfvyn6crmzo4isburta7/lib/gcc/x86_64-pc-linux-gnu/9.4.0/../../../../lib64 -L/lib/x86_64-linux-gnu -L/lib/../lib64 -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib64 -L/modules/spack/packages/linux-ubuntu24.04-x86_64_v3/gcc-13.2.0/gcc-9.4.0-ctk4n3223pjnwfvyn6crmzo4isburta7/lib/gcc/x86_64-pc-linux-gnu/9.4.0/../../.. -rpath /modules/spack/packages/linux-ubuntu24.04-x86_64_v3/gcc-13.2.0/gcc-9.4.0-ctk4n3223pjnwfvyn6crmzo4isburta7/lib64 -v CMakeFiles/cmTC_1d880.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /modules/spack/packages/linux-ubuntu24.04-x86_64_v3/gcc-13.2.0/gcc-9.4.0-ctk4n3223pjnwfvyn6crmzo4isburta7/lib/gcc/x86_64-pc-linux-gnu/9.4.0/crtend.o /lib/x86_64-linux-gnu/crtn.o
+        collect2 version 9.4.0
+        /usr/bin/ld -plugin /modules/spack/packages/linux-ubuntu24.04-x86_64_v3/gcc-13.2.0/gcc-9.4.0-ctk4n3223pjnwfvyn6crmzo4isburta7/libexec/gcc/x86_64-pc-linux-gnu/9.4.0/liblto_plugin.so -plugin-opt=/modules/spack/packages/linux-ubuntu24.04-x86_64_v3/gcc-13.2.0/gcc-9.4.0-ctk4n3223pjnwfvyn6crmzo4isburta7/libexec/gcc/x86_64-pc-linux-gnu/9.4.0/lto-wrapper -plugin-opt=-fresolution=/tmp/ccOaMiGM.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --eh-frame-hdr -m elf_x86_64 -dynamic-linker /lib64/ld-linux-x86-64.so.2 -o cmTC_1d880 /lib/x86_64-linux-gnu/crt1.o /lib/x86_64-linux-gnu/crti.o /modules/spack/packages/linux-ubuntu24.04-x86_64_v3/gcc-13.2.0/gcc-9.4.0-ctk4n3223pjnwfvyn6crmzo4isburta7/lib/gcc/x86_64-pc-linux-gnu/9.4.0/crtbegin.o -L/modules/spack/packages/linux-ubuntu24.04-x86_64_v3/gcc-13.2.0/gcc-9.4.0-ctk4n3223pjnwfvyn6crmzo4isburta7/lib/gcc/x86_64-pc-linux-gnu/9.4.0 -L/modules/spack/packages/linux-ubuntu24.04-x86_64_v3/gcc-13.2.0/gcc-9.4.0-ctk4n3223pjnwfvyn6crmzo4isburta7/lib/gcc/x86_64-pc-linux-gnu/9.4.0/../../../../lib64 -L/lib/x86_64-linux-gnu -L/lib/../lib64 -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib64 -L/modules/spack/packages/linux-ubuntu24.04-x86_64_v3/gcc-13.2.0/gcc-9.4.0-ctk4n3223pjnwfvyn6crmzo4isburta7/lib/gcc/x86_64-pc-linux-gnu/9.4.0/../../.. -rpath /modules/spack/packages/linux-ubuntu24.04-x86_64_v3/gcc-13.2.0/gcc-9.4.0-ctk4n3223pjnwfvyn6crmzo4isburta7/lib64 -v CMakeFiles/cmTC_1d880.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /modules/spack/packages/linux-ubuntu24.04-x86_64_v3/gcc-13.2.0/gcc-9.4.0-ctk4n3223pjnwfvyn6crmzo4isburta7/lib/gcc/x86_64-pc-linux-gnu/9.4.0/crtend.o /lib/x86_64-linux-gnu/crtn.o
+        GNU ld (GNU Binutils for Ubuntu) 2.42
+        COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_1d880' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
+        /modules/spack/packages/linux-ubuntu24.04-x86_64_v3/gcc-13.2.0/gcc-9.4.0-ctk4n3223pjnwfvyn6crmzo4isburta7/bin/c++  -v -Wl,-v CMakeFiles/cmTC_1d880.dir/CMakeCXXCompilerABI.cpp.o -o cmTC_1d880
+        gmake[1]: Leaving directory '/work/pi_chuangg_umass_edu/xiaowen/PartSLIP2/partition/cut-pursuit/build/CMakeFiles/CMakeScratch/TryCompile-AM64PL'
+        
+      exitCode: 0
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/work/pi_chuangg_umass_edu/xiaowen/env/partslip/share/cmake-3.31/Modules/CMakeDetermineCompilerABI.cmake:182 (message)"
+      - "/work/pi_chuangg_umass_edu/xiaowen/env/partslip/share/cmake-3.31/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:5 (project)"
+    message: |
+      Parsed CXX implicit include dir info: rv=done
+        found start of include info
+        found start of implicit include info
+          add: [/modules/spack/packages/linux-ubuntu24.04-x86_64_v3/gcc-13.2.0/gcc-9.4.0-ctk4n3223pjnwfvyn6crmzo4isburta7/lib/gcc/x86_64-pc-linux-gnu/9.4.0/../../../../include/c++/9.4.0]
+          add: [/modules/spack/packages/linux-ubuntu24.04-x86_64_v3/gcc-13.2.0/gcc-9.4.0-ctk4n3223pjnwfvyn6crmzo4isburta7/lib/gcc/x86_64-pc-linux-gnu/9.4.0/../../../../include/c++/9.4.0/x86_64-pc-linux-gnu]
+          add: [/modules/spack/packages/linux-ubuntu24.04-x86_64_v3/gcc-13.2.0/gcc-9.4.0-ctk4n3223pjnwfvyn6crmzo4isburta7/lib/gcc/x86_64-pc-linux-gnu/9.4.0/../../../../include/c++/9.4.0/backward]
+          add: [/modules/spack/packages/linux-ubuntu24.04-x86_64_v3/gcc-13.2.0/gcc-9.4.0-ctk4n3223pjnwfvyn6crmzo4isburta7/lib/gcc/x86_64-pc-linux-gnu/9.4.0/include]
+          add: [/usr/local/include]
+          add: [/modules/spack/packages/linux-ubuntu24.04-x86_64_v3/gcc-13.2.0/gcc-9.4.0-ctk4n3223pjnwfvyn6crmzo4isburta7/include]
+          add: [/modules/spack/packages/linux-ubuntu24.04-x86_64_v3/gcc-13.2.0/gcc-9.4.0-ctk4n3223pjnwfvyn6crmzo4isburta7/lib/gcc/x86_64-pc-linux-gnu/9.4.0/include-fixed]
+          add: [/usr/include/x86_64-linux-gnu]
+          add: [/usr/include]
+        end of search list found
+        collapse include dir [/modules/spack/packages/linux-ubuntu24.04-x86_64_v3/gcc-13.2.0/gcc-9.4.0-ctk4n3223pjnwfvyn6crmzo4isburta7/lib/gcc/x86_64-pc-linux-gnu/9.4.0/../../../../include/c++/9.4.0] ==> [/modules/spack/packages/linux-ubuntu24.04-x86_64_v3/gcc-13.2.0/gcc-9.4.0-ctk4n3223pjnwfvyn6crmzo4isburta7/include/c++/9.4.0]
+        collapse include dir [/modules/spack/packages/linux-ubuntu24.04-x86_64_v3/gcc-13.2.0/gcc-9.4.0-ctk4n3223pjnwfvyn6crmzo4isburta7/lib/gcc/x86_64-pc-linux-gnu/9.4.0/../../../../include/c++/9.4.0/x86_64-pc-linux-gnu] ==> [/modules/spack/packages/linux-ubuntu24.04-x86_64_v3/gcc-13.2.0/gcc-9.4.0-ctk4n3223pjnwfvyn6crmzo4isburta7/include/c++/9.4.0/x86_64-pc-linux-gnu]
+        collapse include dir [/modules/spack/packages/linux-ubuntu24.04-x86_64_v3/gcc-13.2.0/gcc-9.4.0-ctk4n3223pjnwfvyn6crmzo4isburta7/lib/gcc/x86_64-pc-linux-gnu/9.4.0/../../../../include/c++/9.4.0/backward] ==> [/modules/spack/packages/linux-ubuntu24.04-x86_64_v3/gcc-13.2.0/gcc-9.4.0-ctk4n3223pjnwfvyn6crmzo4isburta7/include/c++/9.4.0/backward]
+        collapse include dir [/modules/spack/packages/linux-ubuntu24.04-x86_64_v3/gcc-13.2.0/gcc-9.4.0-ctk4n3223pjnwfvyn6crmzo4isburta7/lib/gcc/x86_64-pc-linux-gnu/9.4.0/include] ==> [/modules/spack/packages/linux-ubuntu24.04-x86_64_v3/gcc-13.2.0/gcc-9.4.0-ctk4n3223pjnwfvyn6crmzo4isburta7/lib/gcc/x86_64-pc-linux-gnu/9.4.0/include]
+        collapse include dir [/usr/local/include] ==> [/usr/local/include]
+        collapse include dir [/modules/spack/packages/linux-ubuntu24.04-x86_64_v3/gcc-13.2.0/gcc-9.4.0-ctk4n3223pjnwfvyn6crmzo4isburta7/include] ==> [/modules/spack/packages/linux-ubuntu24.04-x86_64_v3/gcc-13.2.0/gcc-9.4.0-ctk4n3223pjnwfvyn6crmzo4isburta7/include]
+        collapse include dir [/modules/spack/packages/linux-ubuntu24.04-x86_64_v3/gcc-13.2.0/gcc-9.4.0-ctk4n3223pjnwfvyn6crmzo4isburta7/lib/gcc/x86_64-pc-linux-gnu/9.4.0/include-fixed] ==> [/modules/spack/packages/linux-ubuntu24.04-x86_64_v3/gcc-13.2.0/gcc-9.4.0-ctk4n3223pjnwfvyn6crmzo4isburta7/lib/gcc/x86_64-pc-linux-gnu/9.4.0/include-fixed]
+        collapse include dir [/usr/include/x86_64-linux-gnu] ==> [/usr/include/x86_64-linux-gnu]
+        collapse include dir [/usr/include] ==> [/usr/include]
+        implicit include dirs: [/modules/spack/packages/linux-ubuntu24.04-x86_64_v3/gcc-13.2.0/gcc-9.4.0-ctk4n3223pjnwfvyn6crmzo4isburta7/include/c++/9.4.0;/modules/spack/packages/linux-ubuntu24.04-x86_64_v3/gcc-13.2.0/gcc-9.4.0-ctk4n3223pjnwfvyn6crmzo4isburta7/include/c++/9.4.0/x86_64-pc-linux-gnu;/modules/spack/packages/linux-ubuntu24.04-x86_64_v3/gcc-13.2.0/gcc-9.4.0-ctk4n3223pjnwfvyn6crmzo4isburta7/include/c++/9.4.0/backward;/modules/spack/packages/linux-ubuntu24.04-x86_64_v3/gcc-13.2.0/gcc-9.4.0-ctk4n3223pjnwfvyn6crmzo4isburta7/lib/gcc/x86_64-pc-linux-gnu/9.4.0/include;/usr/local/include;/modules/spack/packages/linux-ubuntu24.04-x86_64_v3/gcc-13.2.0/gcc-9.4.0-ctk4n3223pjnwfvyn6crmzo4isburta7/include;/modules/spack/packages/linux-ubuntu24.04-x86_64_v3/gcc-13.2.0/gcc-9.4.0-ctk4n3223pjnwfvyn6crmzo4isburta7/lib/gcc/x86_64-pc-linux-gnu/9.4.0/include-fixed;/usr/include/x86_64-linux-gnu;/usr/include]
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/work/pi_chuangg_umass_edu/xiaowen/env/partslip/share/cmake-3.31/Modules/CMakeDetermineCompilerABI.cmake:218 (message)"
+      - "/work/pi_chuangg_umass_edu/xiaowen/env/partslip/share/cmake-3.31/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:5 (project)"
+    message: |
+      Parsed CXX implicit link information:
+        link line regex: [^( *|.*[/\\])(ld[0-9]*(\\.[a-z]+)?|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
+        linker tool regex: [^[ 	]*(->|")?[ 	]*(([^"]*[/\\])?(ld[0-9]*(\\.[a-z]+)?))("|,| |$)]
+        ignore line: [Change Dir: '/work/pi_chuangg_umass_edu/xiaowen/PartSLIP2/partition/cut-pursuit/build/CMakeFiles/CMakeScratch/TryCompile-AM64PL']
+        ignore line: []
+        ignore line: [Run Build Command(s): /work/pi_chuangg_umass_edu/xiaowen/env/partslip/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_1d880/fast]
+        ignore line: [/usr/bin/gmake  -f CMakeFiles/cmTC_1d880.dir/build.make CMakeFiles/cmTC_1d880.dir/build]
+        ignore line: [gmake[1]: Entering directory '/work/pi_chuangg_umass_edu/xiaowen/PartSLIP2/partition/cut-pursuit/build/CMakeFiles/CMakeScratch/TryCompile-AM64PL']
+        ignore line: [Building CXX object CMakeFiles/cmTC_1d880.dir/CMakeCXXCompilerABI.cpp.o]
+        ignore line: [/modules/spack/packages/linux-ubuntu24.04-x86_64_v3/gcc-13.2.0/gcc-9.4.0-ctk4n3223pjnwfvyn6crmzo4isburta7/bin/c++   -v -o CMakeFiles/cmTC_1d880.dir/CMakeCXXCompilerABI.cpp.o -c /work/pi_chuangg_umass_edu/xiaowen/env/partslip/share/cmake-3.31/Modules/CMakeCXXCompilerABI.cpp]
+        ignore line: [Reading specs from /modules/spack/packages/linux-ubuntu24.04-x86_64_v3/gcc-13.2.0/gcc-9.4.0-ctk4n3223pjnwfvyn6crmzo4isburta7/lib/gcc/x86_64-pc-linux-gnu/9.4.0/specs]
+        ignore line: [COLLECT_GCC=/modules/spack/packages/linux-ubuntu24.04-x86_64_v3/gcc-13.2.0/gcc-9.4.0-ctk4n3223pjnwfvyn6crmzo4isburta7/bin/c++]
+        ignore line: [Target: x86_64-pc-linux-gnu]
+        ignore line: [Configured with: /tmp/package-maintainer/spack-stage/spack-stage-gcc-9.4.0-ctk4n3223pjnwfvyn6crmzo4isburta7/spack-src/configure --prefix=/modules/spack/packages/linux-ubuntu24.04-x86_64_v3/gcc-13.2.0/gcc-9.4.0-ctk4n3223pjnwfvyn6crmzo4isburta7 --with-pkgversion='Spack GCC' --with-bugurl=https://github.com/spack/spack/issues --disable-multilib --enable-languages=c c++ fortran --disable-nls --disable-canonical-system-headers --with-system-zlib --enable-bootstrap --with-mpfr-include=/modules/spack/packages/linux-ubuntu24.04-x86_64_v3/gcc-13.2.0/mpfr-3.1.6-ylap6dhxruv2wz3niolpgthikhvw6ed2/include --with-mpfr-lib=/modules/spack/packages/linux-ubuntu24.04-x86_64_v3/gcc-13.2.0/mpfr-3.1.6-ylap6dhxruv2wz3niolpgthikhvw6ed2/lib --with-gmp-include=/modules/spack/packages/linux-ubuntu24.04-x86_64_v3/gcc-13.2.0/gmp-6.2.1-m4mewheojoeylcxszht2kjrh75mamuev/include --with-gmp-lib=/modules/spack/packages/linux-ubuntu24.04-x86_64_v3/gcc-13.2.0/gmp-6.2.1-m4mewheojoeylcxszht2kjrh75mamuev/lib --with-mpc-include=/modules/spack/packages/linux-ubuntu24.04-x86_64_v3/gcc-13.2.0/mpc-1.1.0-zjjbyrf5u5mdlirfkliakmmx27u2qwb5/include --with-mpc-lib=/modules/spack/packages/linux-ubuntu24.04-x86_64_v3/gcc-13.2.0/mpc-1.1.0-zjjbyrf5u5mdlirfkliakmmx27u2qwb5/lib --without-isl --with-stage1-ldflags='-Wl -rpath /modules/spack/packages/linux-ubuntu24.04-x86_64_v3/gcc-13.2.0/gcc-9.4.0-ctk4n3223pjnwfvyn6crmzo4isburta7/lib -Wl -rpath /modules/spack/packages/linux-ubuntu24.04-x86_64_v3/gcc-13.2.0/gcc-9.4.0-ctk4n3223pjnwfvyn6crmzo4isburta7/lib64 -Wl -rpath /modules/spack/packages/linux-ubuntu24.04-x86_64/gcc-13.2.0/gcc-runtime-13.2.0-rcyio47gfziipclkomny2nhhsjiqpz65/lib -Wl -rpath /usr/lib -Wl -rpath /modules/spack/packages/linux-ubuntu24.04-x86_64_v3/gcc-13.2.0/gmp-6.2.1-m4mewheojoeylcxszht2kjrh75mamuev/lib -Wl -rpath /modules/spack/packages/linux-ubuntu24.04-x86_64_v3/gcc-13.2.0/mpc-1.1.0-zjjbyrf5u5mdlirfkliakmmx27u2qwb5/lib -Wl -rpath /modules/spack/packages/linux-ubuntu24.04-x86_64_v3/gcc-13.2.0/mpfr-3.1.6-ylap6dhxruv2wz3niolpgthikhvw6ed2/lib -Wl -rpath /modules/spack/packages/linux-ubuntu24.04-x86_64/gcc-13.2.0/zlib-ng-2.1.6-kh6kcfeidfzavdehuhd5753qybandckh/lib -Wl -rpath /usr/lib64' --with-boot-ldflags='-Wl -rpath /modules/spack/packages/linux-ubuntu24.04-x86_64_v3/gcc-13.2.0/gcc-9.4.0-ctk4n3223pjnwfvyn6crmzo4isburta7/lib -Wl -rpath /modules/spack/packages/linux-ubuntu24.04-x86_64_v3/gcc-13.2.0/gcc-9.4.0-ctk4n3223pjnwfvyn6crmzo4isburta7/lib64 -Wl -rpath /modules/spack/packages/linux-ubuntu24.04-x86_64/gcc-13.2.0/gcc-runtime-13.2.0-rcyio47gfziipclkomny2nhhsjiqpz65/lib -Wl -rpath /usr/lib -Wl -rpath /modules/spack/packages/linux-ubuntu24.04-x86_64_v3/gcc-13.2.0/gmp-6.2.1-m4mewheojoeylcxszht2kjrh75mamuev/lib -Wl -rpath /modules/spack/packages/linux-ubuntu24.04-x86_64_v3/gcc-13.2.0/mpc-1.1.0-zjjbyrf5u5mdlirfkliakmmx27u2qwb5/lib -Wl -rpath /modules/spack/packages/linux-ubuntu24.04-x86_64_v3/gcc-13.2.0/mpfr-3.1.6-ylap6dhxruv2wz3niolpgthikhvw6ed2/lib -Wl -rpath /modules/spack/packages/linux-ubuntu24.04-x86_64/gcc-13.2.0/zlib-ng-2.1.6-kh6kcfeidfzavdehuhd5753qybandckh/lib -Wl -rpath /usr/lib64 -static-libstdc++ -static-libgcc' --with-build-config=spack]
+        ignore line: [Thread model: posix]
+        ignore line: [gcc version 9.4.0 (Spack GCC) ]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_1d880.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64']
+        ignore line: [ /modules/spack/packages/linux-ubuntu24.04-x86_64_v3/gcc-13.2.0/gcc-9.4.0-ctk4n3223pjnwfvyn6crmzo4isburta7/libexec/gcc/x86_64-pc-linux-gnu/9.4.0/cc1plus -quiet -v -imultiarch x86_64-linux-gnu -D_GNU_SOURCE /work/pi_chuangg_umass_edu/xiaowen/env/partslip/share/cmake-3.31/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpbase CMakeCXXCompilerABI.cpp -mtune=generic -march=x86-64 -auxbase-strip CMakeFiles/cmTC_1d880.dir/CMakeCXXCompilerABI.cpp.o -version -o /tmp/ccmCVD03.s]
+        ignore line: [GNU C++14 (Spack GCC) version 9.4.0 (x86_64-pc-linux-gnu)]
+        ignore line: [	compiled by GNU C version 9.4.0  GMP version 6.2.1  MPFR version 3.1.6-p2  MPC version 1.1.0  isl version none]
+        ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+        ignore line: [ignoring nonexistent directory "/usr/local/include/x86_64-linux-gnu"]
+        ignore line: [ignoring nonexistent directory "/modules/spack/packages/linux-ubuntu24.04-x86_64_v3/gcc-13.2.0/gcc-9.4.0-ctk4n3223pjnwfvyn6crmzo4isburta7/lib/gcc/x86_64-pc-linux-gnu/9.4.0/../../../../x86_64-pc-linux-gnu/include"]
+        ignore line: [#include "..." search starts here:]
+        ignore line: [#include <...> search starts here:]
+        ignore line: [ /modules/spack/packages/linux-ubuntu24.04-x86_64_v3/gcc-13.2.0/gcc-9.4.0-ctk4n3223pjnwfvyn6crmzo4isburta7/lib/gcc/x86_64-pc-linux-gnu/9.4.0/../../../../include/c++/9.4.0]
+        ignore line: [ /modules/spack/packages/linux-ubuntu24.04-x86_64_v3/gcc-13.2.0/gcc-9.4.0-ctk4n3223pjnwfvyn6crmzo4isburta7/lib/gcc/x86_64-pc-linux-gnu/9.4.0/../../../../include/c++/9.4.0/x86_64-pc-linux-gnu]
+        ignore line: [ /modules/spack/packages/linux-ubuntu24.04-x86_64_v3/gcc-13.2.0/gcc-9.4.0-ctk4n3223pjnwfvyn6crmzo4isburta7/lib/gcc/x86_64-pc-linux-gnu/9.4.0/../../../../include/c++/9.4.0/backward]
+        ignore line: [ /modules/spack/packages/linux-ubuntu24.04-x86_64_v3/gcc-13.2.0/gcc-9.4.0-ctk4n3223pjnwfvyn6crmzo4isburta7/lib/gcc/x86_64-pc-linux-gnu/9.4.0/include]
+        ignore line: [ /usr/local/include]
+        ignore line: [ /modules/spack/packages/linux-ubuntu24.04-x86_64_v3/gcc-13.2.0/gcc-9.4.0-ctk4n3223pjnwfvyn6crmzo4isburta7/include]
+        ignore line: [ /modules/spack/packages/linux-ubuntu24.04-x86_64_v3/gcc-13.2.0/gcc-9.4.0-ctk4n3223pjnwfvyn6crmzo4isburta7/lib/gcc/x86_64-pc-linux-gnu/9.4.0/include-fixed]
+        ignore line: [ /usr/include/x86_64-linux-gnu]
+        ignore line: [ /usr/include]
+        ignore line: [End of search list.]
+        ignore line: [GNU C++14 (Spack GCC) version 9.4.0 (x86_64-pc-linux-gnu)]
+        ignore line: [	compiled by GNU C version 9.4.0  GMP version 6.2.1  MPFR version 3.1.6-p2  MPC version 1.1.0  isl version none]
+        ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+        ignore line: [Compiler executable checksum: 4851046a3f8d7af3f1e5ae171ef4afb7]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_1d880.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64']
+        ignore line: [ as -v --64 -o CMakeFiles/cmTC_1d880.dir/CMakeCXXCompilerABI.cpp.o /tmp/ccmCVD03.s]
+        ignore line: [GNU assembler version 2.42 (x86_64-linux-gnu) using BFD version (GNU Binutils for Ubuntu) 2.42]
+        ignore line: [COMPILER_PATH=/modules/spack/packages/linux-ubuntu24.04-x86_64_v3/gcc-13.2.0/gcc-9.4.0-ctk4n3223pjnwfvyn6crmzo4isburta7/libexec/gcc/x86_64-pc-linux-gnu/9.4.0/:/modules/spack/packages/linux-ubuntu24.04-x86_64_v3/gcc-13.2.0/gcc-9.4.0-ctk4n3223pjnwfvyn6crmzo4isburta7/libexec/gcc/x86_64-pc-linux-gnu/9.4.0/:/modules/spack/packages/linux-ubuntu24.04-x86_64_v3/gcc-13.2.0/gcc-9.4.0-ctk4n3223pjnwfvyn6crmzo4isburta7/libexec/gcc/x86_64-pc-linux-gnu/:/modules/spack/packages/linux-ubuntu24.04-x86_64_v3/gcc-13.2.0/gcc-9.4.0-ctk4n3223pjnwfvyn6crmzo4isburta7/lib/gcc/x86_64-pc-linux-gnu/9.4.0/:/modules/spack/packages/linux-ubuntu24.04-x86_64_v3/gcc-13.2.0/gcc-9.4.0-ctk4n3223pjnwfvyn6crmzo4isburta7/lib/gcc/x86_64-pc-linux-gnu/]
+        ignore line: [LIBRARY_PATH=/modules/spack/packages/linux-ubuntu24.04-x86_64_v3/gcc-13.2.0/gcc-9.4.0-ctk4n3223pjnwfvyn6crmzo4isburta7/lib/gcc/x86_64-pc-linux-gnu/9.4.0/:/modules/spack/packages/linux-ubuntu24.04-x86_64_v3/gcc-13.2.0/gcc-9.4.0-ctk4n3223pjnwfvyn6crmzo4isburta7/lib/gcc/x86_64-pc-linux-gnu/9.4.0/../../../../lib64/:/lib/x86_64-linux-gnu/:/lib/../lib64/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib64/:/modules/spack/packages/linux-ubuntu24.04-x86_64_v3/gcc-13.2.0/gcc-9.4.0-ctk4n3223pjnwfvyn6crmzo4isburta7/lib/gcc/x86_64-pc-linux-gnu/9.4.0/../../../:/lib/:/usr/lib/]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_1d880.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64']
+        ignore line: [Linking CXX executable cmTC_1d880]
+        ignore line: [/work/pi_chuangg_umass_edu/xiaowen/env/partslip/bin/cmake -E cmake_link_script CMakeFiles/cmTC_1d880.dir/link.txt --verbose=1]
+        ignore line: [Reading specs from /modules/spack/packages/linux-ubuntu24.04-x86_64_v3/gcc-13.2.0/gcc-9.4.0-ctk4n3223pjnwfvyn6crmzo4isburta7/lib/gcc/x86_64-pc-linux-gnu/9.4.0/specs]
+        ignore line: [COLLECT_GCC=/modules/spack/packages/linux-ubuntu24.04-x86_64_v3/gcc-13.2.0/gcc-9.4.0-ctk4n3223pjnwfvyn6crmzo4isburta7/bin/c++]
+        ignore line: [COLLECT_LTO_WRAPPER=/modules/spack/packages/linux-ubuntu24.04-x86_64_v3/gcc-13.2.0/gcc-9.4.0-ctk4n3223pjnwfvyn6crmzo4isburta7/libexec/gcc/x86_64-pc-linux-gnu/9.4.0/lto-wrapper]
+        ignore line: [Target: x86_64-pc-linux-gnu]
+        ignore line: [Configured with: /tmp/package-maintainer/spack-stage/spack-stage-gcc-9.4.0-ctk4n3223pjnwfvyn6crmzo4isburta7/spack-src/configure --prefix=/modules/spack/packages/linux-ubuntu24.04-x86_64_v3/gcc-13.2.0/gcc-9.4.0-ctk4n3223pjnwfvyn6crmzo4isburta7 --with-pkgversion='Spack GCC' --with-bugurl=https://github.com/spack/spack/issues --disable-multilib --enable-languages=c c++ fortran --disable-nls --disable-canonical-system-headers --with-system-zlib --enable-bootstrap --with-mpfr-include=/modules/spack/packages/linux-ubuntu24.04-x86_64_v3/gcc-13.2.0/mpfr-3.1.6-ylap6dhxruv2wz3niolpgthikhvw6ed2/include --with-mpfr-lib=/modules/spack/packages/linux-ubuntu24.04-x86_64_v3/gcc-13.2.0/mpfr-3.1.6-ylap6dhxruv2wz3niolpgthikhvw6ed2/lib --with-gmp-include=/modules/spack/packages/linux-ubuntu24.04-x86_64_v3/gcc-13.2.0/gmp-6.2.1-m4mewheojoeylcxszht2kjrh75mamuev/include --with-gmp-lib=/modules/spack/packages/linux-ubuntu24.04-x86_64_v3/gcc-13.2.0/gmp-6.2.1-m4mewheojoeylcxszht2kjrh75mamuev/lib --with-mpc-include=/modules/spack/packages/linux-ubuntu24.04-x86_64_v3/gcc-13.2.0/mpc-1.1.0-zjjbyrf5u5mdlirfkliakmmx27u2qwb5/include --with-mpc-lib=/modules/spack/packages/linux-ubuntu24.04-x86_64_v3/gcc-13.2.0/mpc-1.1.0-zjjbyrf5u5mdlirfkliakmmx27u2qwb5/lib --without-isl --with-stage1-ldflags='-Wl -rpath /modules/spack/packages/linux-ubuntu24.04-x86_64_v3/gcc-13.2.0/gcc-9.4.0-ctk4n3223pjnwfvyn6crmzo4isburta7/lib -Wl -rpath /modules/spack/packages/linux-ubuntu24.04-x86_64_v3/gcc-13.2.0/gcc-9.4.0-ctk4n3223pjnwfvyn6crmzo4isburta7/lib64 -Wl -rpath /modules/spack/packages/linux-ubuntu24.04-x86_64/gcc-13.2.0/gcc-runtime-13.2.0-rcyio47gfziipclkomny2nhhsjiqpz65/lib -Wl -rpath /usr/lib -Wl -rpath /modules/spack/packages/linux-ubuntu24.04-x86_64_v3/gcc-13.2.0/gmp-6.2.1-m4mewheojoeylcxszht2kjrh75mamuev/lib -Wl -rpath /modules/spack/packages/linux-ubuntu24.04-x86_64_v3/gcc-13.2.0/mpc-1.1.0-zjjbyrf5u5mdlirfkliakmmx27u2qwb5/lib -Wl -rpath /modules/spack/packages/linux-ubuntu24.04-x86_64_v3/gcc-13.2.0/mpfr-3.1.6-ylap6dhxruv2wz3niolpgthikhvw6ed2/lib -Wl -rpath /modules/spack/packages/linux-ubuntu24.04-x86_64/gcc-13.2.0/zlib-ng-2.1.6-kh6kcfeidfzavdehuhd5753qybandckh/lib -Wl -rpath /usr/lib64' --with-boot-ldflags='-Wl -rpath /modules/spack/packages/linux-ubuntu24.04-x86_64_v3/gcc-13.2.0/gcc-9.4.0-ctk4n3223pjnwfvyn6crmzo4isburta7/lib -Wl -rpath /modules/spack/packages/linux-ubuntu24.04-x86_64_v3/gcc-13.2.0/gcc-9.4.0-ctk4n3223pjnwfvyn6crmzo4isburta7/lib64 -Wl -rpath /modules/spack/packages/linux-ubuntu24.04-x86_64/gcc-13.2.0/gcc-runtime-13.2.0-rcyio47gfziipclkomny2nhhsjiqpz65/lib -Wl -rpath /usr/lib -Wl -rpath /modules/spack/packages/linux-ubuntu24.04-x86_64_v3/gcc-13.2.0/gmp-6.2.1-m4mewheojoeylcxszht2kjrh75mamuev/lib -Wl -rpath /modules/spack/packages/linux-ubuntu24.04-x86_64_v3/gcc-13.2.0/mpc-1.1.0-zjjbyrf5u5mdlirfkliakmmx27u2qwb5/lib -Wl -rpath /modules/spack/packages/linux-ubuntu24.04-x86_64_v3/gcc-13.2.0/mpfr-3.1.6-ylap6dhxruv2wz3niolpgthikhvw6ed2/lib -Wl -rpath /modules/spack/packages/linux-ubuntu24.04-x86_64/gcc-13.2.0/zlib-ng-2.1.6-kh6kcfeidfzavdehuhd5753qybandckh/lib -Wl -rpath /usr/lib64 -static-libstdc++ -static-libgcc' --with-build-config=spack]
+        ignore line: [Thread model: posix]
+        ignore line: [gcc version 9.4.0 (Spack GCC) ]
+        ignore line: [COMPILER_PATH=/modules/spack/packages/linux-ubuntu24.04-x86_64_v3/gcc-13.2.0/gcc-9.4.0-ctk4n3223pjnwfvyn6crmzo4isburta7/libexec/gcc/x86_64-pc-linux-gnu/9.4.0/:/modules/spack/packages/linux-ubuntu24.04-x86_64_v3/gcc-13.2.0/gcc-9.4.0-ctk4n3223pjnwfvyn6crmzo4isburta7/libexec/gcc/x86_64-pc-linux-gnu/9.4.0/:/modules/spack/packages/linux-ubuntu24.04-x86_64_v3/gcc-13.2.0/gcc-9.4.0-ctk4n3223pjnwfvyn6crmzo4isburta7/libexec/gcc/x86_64-pc-linux-gnu/:/modules/spack/packages/linux-ubuntu24.04-x86_64_v3/gcc-13.2.0/gcc-9.4.0-ctk4n3223pjnwfvyn6crmzo4isburta7/lib/gcc/x86_64-pc-linux-gnu/9.4.0/:/modules/spack/packages/linux-ubuntu24.04-x86_64_v3/gcc-13.2.0/gcc-9.4.0-ctk4n3223pjnwfvyn6crmzo4isburta7/lib/gcc/x86_64-pc-linux-gnu/]
+        ignore line: [LIBRARY_PATH=/modules/spack/packages/linux-ubuntu24.04-x86_64_v3/gcc-13.2.0/gcc-9.4.0-ctk4n3223pjnwfvyn6crmzo4isburta7/lib/gcc/x86_64-pc-linux-gnu/9.4.0/:/modules/spack/packages/linux-ubuntu24.04-x86_64_v3/gcc-13.2.0/gcc-9.4.0-ctk4n3223pjnwfvyn6crmzo4isburta7/lib/gcc/x86_64-pc-linux-gnu/9.4.0/../../../../lib64/:/lib/x86_64-linux-gnu/:/lib/../lib64/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib64/:/modules/spack/packages/linux-ubuntu24.04-x86_64_v3/gcc-13.2.0/gcc-9.4.0-ctk4n3223pjnwfvyn6crmzo4isburta7/lib/gcc/x86_64-pc-linux-gnu/9.4.0/../../../:/lib/:/usr/lib/]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_1d880' '-shared-libgcc' '-mtune=generic' '-march=x86-64']
+        link line: [ /modules/spack/packages/linux-ubuntu24.04-x86_64_v3/gcc-13.2.0/gcc-9.4.0-ctk4n3223pjnwfvyn6crmzo4isburta7/libexec/gcc/x86_64-pc-linux-gnu/9.4.0/collect2 -plugin /modules/spack/packages/linux-ubuntu24.04-x86_64_v3/gcc-13.2.0/gcc-9.4.0-ctk4n3223pjnwfvyn6crmzo4isburta7/libexec/gcc/x86_64-pc-linux-gnu/9.4.0/liblto_plugin.so -plugin-opt=/modules/spack/packages/linux-ubuntu24.04-x86_64_v3/gcc-13.2.0/gcc-9.4.0-ctk4n3223pjnwfvyn6crmzo4isburta7/libexec/gcc/x86_64-pc-linux-gnu/9.4.0/lto-wrapper -plugin-opt=-fresolution=/tmp/ccOaMiGM.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --eh-frame-hdr -m elf_x86_64 -dynamic-linker /lib64/ld-linux-x86-64.so.2 -o cmTC_1d880 /lib/x86_64-linux-gnu/crt1.o /lib/x86_64-linux-gnu/crti.o /modules/spack/packages/linux-ubuntu24.04-x86_64_v3/gcc-13.2.0/gcc-9.4.0-ctk4n3223pjnwfvyn6crmzo4isburta7/lib/gcc/x86_64-pc-linux-gnu/9.4.0/crtbegin.o -L/modules/spack/packages/linux-ubuntu24.04-x86_64_v3/gcc-13.2.0/gcc-9.4.0-ctk4n3223pjnwfvyn6crmzo4isburta7/lib/gcc/x86_64-pc-linux-gnu/9.4.0 -L/modules/spack/packages/linux-ubuntu24.04-x86_64_v3/gcc-13.2.0/gcc-9.4.0-ctk4n3223pjnwfvyn6crmzo4isburta7/lib/gcc/x86_64-pc-linux-gnu/9.4.0/../../../../lib64 -L/lib/x86_64-linux-gnu -L/lib/../lib64 -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib64 -L/modules/spack/packages/linux-ubuntu24.04-x86_64_v3/gcc-13.2.0/gcc-9.4.0-ctk4n3223pjnwfvyn6crmzo4isburta7/lib/gcc/x86_64-pc-linux-gnu/9.4.0/../../.. -rpath /modules/spack/packages/linux-ubuntu24.04-x86_64_v3/gcc-13.2.0/gcc-9.4.0-ctk4n3223pjnwfvyn6crmzo4isburta7/lib64 -v CMakeFiles/cmTC_1d880.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /modules/spack/packages/linux-ubuntu24.04-x86_64_v3/gcc-13.2.0/gcc-9.4.0-ctk4n3223pjnwfvyn6crmzo4isburta7/lib/gcc/x86_64-pc-linux-gnu/9.4.0/crtend.o /lib/x86_64-linux-gnu/crtn.o]
+          arg [/modules/spack/packages/linux-ubuntu24.04-x86_64_v3/gcc-13.2.0/gcc-9.4.0-ctk4n3223pjnwfvyn6crmzo4isburta7/libexec/gcc/x86_64-pc-linux-gnu/9.4.0/collect2] ==> ignore
+          arg [-plugin] ==> ignore
+          arg [/modules/spack/packages/linux-ubuntu24.04-x86_64_v3/gcc-13.2.0/gcc-9.4.0-ctk4n3223pjnwfvyn6crmzo4isburta7/libexec/gcc/x86_64-pc-linux-gnu/9.4.0/liblto_plugin.so] ==> ignore
+          arg [-plugin-opt=/modules/spack/packages/linux-ubuntu24.04-x86_64_v3/gcc-13.2.0/gcc-9.4.0-ctk4n3223pjnwfvyn6crmzo4isburta7/libexec/gcc/x86_64-pc-linux-gnu/9.4.0/lto-wrapper] ==> ignore
+          arg [-plugin-opt=-fresolution=/tmp/ccOaMiGM.res] ==> ignore
+          arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+          arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+          arg [-plugin-opt=-pass-through=-lc] ==> ignore
+          arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+          arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+          arg [--eh-frame-hdr] ==> ignore
+          arg [-m] ==> ignore
+          arg [elf_x86_64] ==> ignore
+          arg [-dynamic-linker] ==> ignore
+          arg [/lib64/ld-linux-x86-64.so.2] ==> ignore
+          arg [-o] ==> ignore
+          arg [cmTC_1d880] ==> ignore
+          arg [/lib/x86_64-linux-gnu/crt1.o] ==> obj [/lib/x86_64-linux-gnu/crt1.o]
+          arg [/lib/x86_64-linux-gnu/crti.o] ==> obj [/lib/x86_64-linux-gnu/crti.o]
+          arg [/modules/spack/packages/linux-ubuntu24.04-x86_64_v3/gcc-13.2.0/gcc-9.4.0-ctk4n3223pjnwfvyn6crmzo4isburta7/lib/gcc/x86_64-pc-linux-gnu/9.4.0/crtbegin.o] ==> obj [/modules/spack/packages/linux-ubuntu24.04-x86_64_v3/gcc-13.2.0/gcc-9.4.0-ctk4n3223pjnwfvyn6crmzo4isburta7/lib/gcc/x86_64-pc-linux-gnu/9.4.0/crtbegin.o]
+          arg [-L/modules/spack/packages/linux-ubuntu24.04-x86_64_v3/gcc-13.2.0/gcc-9.4.0-ctk4n3223pjnwfvyn6crmzo4isburta7/lib/gcc/x86_64-pc-linux-gnu/9.4.0] ==> dir [/modules/spack/packages/linux-ubuntu24.04-x86_64_v3/gcc-13.2.0/gcc-9.4.0-ctk4n3223pjnwfvyn6crmzo4isburta7/lib/gcc/x86_64-pc-linux-gnu/9.4.0]
+          arg [-L/modules/spack/packages/linux-ubuntu24.04-x86_64_v3/gcc-13.2.0/gcc-9.4.0-ctk4n3223pjnwfvyn6crmzo4isburta7/lib/gcc/x86_64-pc-linux-gnu/9.4.0/../../../../lib64] ==> dir [/modules/spack/packages/linux-ubuntu24.04-x86_64_v3/gcc-13.2.0/gcc-9.4.0-ctk4n3223pjnwfvyn6crmzo4isburta7/lib/gcc/x86_64-pc-linux-gnu/9.4.0/../../../../lib64]
+          arg [-L/lib/x86_64-linux-gnu] ==> dir [/lib/x86_64-linux-gnu]
+          arg [-L/lib/../lib64] ==> dir [/lib/../lib64]
+          arg [-L/usr/lib/x86_64-linux-gnu] ==> dir [/usr/lib/x86_64-linux-gnu]
+          arg [-L/usr/lib/../lib64] ==> dir [/usr/lib/../lib64]
+          arg [-L/modules/spack/packages/linux-ubuntu24.04-x86_64_v3/gcc-13.2.0/gcc-9.4.0-ctk4n3223pjnwfvyn6crmzo4isburta7/lib/gcc/x86_64-pc-linux-gnu/9.4.0/../../..] ==> dir [/modules/spack/packages/linux-ubuntu24.04-x86_64_v3/gcc-13.2.0/gcc-9.4.0-ctk4n3223pjnwfvyn6crmzo4isburta7/lib/gcc/x86_64-pc-linux-gnu/9.4.0/../../..]
+          arg [-rpath] ==> ignore
+          arg [/modules/spack/packages/linux-ubuntu24.04-x86_64_v3/gcc-13.2.0/gcc-9.4.0-ctk4n3223pjnwfvyn6crmzo4isburta7/lib64] ==> ignore
+          arg [-v] ==> ignore
+          arg [CMakeFiles/cmTC_1d880.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
+          arg [-lstdc++] ==> lib [stdc++]
+          arg [-lm] ==> lib [m]
+          arg [-lgcc_s] ==> lib [gcc_s]
+          arg [-lgcc] ==> lib [gcc]
+          arg [-lc] ==> lib [c]
+          arg [-lgcc_s] ==> lib [gcc_s]
+          arg [-lgcc] ==> lib [gcc]
+          arg [/modules/spack/packages/linux-ubuntu24.04-x86_64_v3/gcc-13.2.0/gcc-9.4.0-ctk4n3223pjnwfvyn6crmzo4isburta7/lib/gcc/x86_64-pc-linux-gnu/9.4.0/crtend.o] ==> obj [/modules/spack/packages/linux-ubuntu24.04-x86_64_v3/gcc-13.2.0/gcc-9.4.0-ctk4n3223pjnwfvyn6crmzo4isburta7/lib/gcc/x86_64-pc-linux-gnu/9.4.0/crtend.o]
+          arg [/lib/x86_64-linux-gnu/crtn.o] ==> obj [/lib/x86_64-linux-gnu/crtn.o]
+        ignore line: [collect2 version 9.4.0]
+        ignore line: [/usr/bin/ld -plugin /modules/spack/packages/linux-ubuntu24.04-x86_64_v3/gcc-13.2.0/gcc-9.4.0-ctk4n3223pjnwfvyn6crmzo4isburta7/libexec/gcc/x86_64-pc-linux-gnu/9.4.0/liblto_plugin.so -plugin-opt=/modules/spack/packages/linux-ubuntu24.04-x86_64_v3/gcc-13.2.0/gcc-9.4.0-ctk4n3223pjnwfvyn6crmzo4isburta7/libexec/gcc/x86_64-pc-linux-gnu/9.4.0/lto-wrapper -plugin-opt=-fresolution=/tmp/ccOaMiGM.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --eh-frame-hdr -m elf_x86_64 -dynamic-linker /lib64/ld-linux-x86-64.so.2 -o cmTC_1d880 /lib/x86_64-linux-gnu/crt1.o /lib/x86_64-linux-gnu/crti.o /modules/spack/packages/linux-ubuntu24.04-x86_64_v3/gcc-13.2.0/gcc-9.4.0-ctk4n3223pjnwfvyn6crmzo4isburta7/lib/gcc/x86_64-pc-linux-gnu/9.4.0/crtbegin.o -L/modules/spack/packages/linux-ubuntu24.04-x86_64_v3/gcc-13.2.0/gcc-9.4.0-ctk4n3223pjnwfvyn6crmzo4isburta7/lib/gcc/x86_64-pc-linux-gnu/9.4.0 -L/modules/spack/packages/linux-ubuntu24.04-x86_64_v3/gcc-13.2.0/gcc-9.4.0-ctk4n3223pjnwfvyn6crmzo4isburta7/lib/gcc/x86_64-pc-linux-gnu/9.4.0/../../../../lib64 -L/lib/x86_64-linux-gnu -L/lib/../lib64 -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib64 -L/modules/spack/packages/linux-ubuntu24.04-x86_64_v3/gcc-13.2.0/gcc-9.4.0-ctk4n3223pjnwfvyn6crmzo4isburta7/lib/gcc/x86_64-pc-linux-gnu/9.4.0/../../.. -rpath /modules/spack/packages/linux-ubuntu24.04-x86_64_v3/gcc-13.2.0/gcc-9.4.0-ctk4n3223pjnwfvyn6crmzo4isburta7/lib64 -v CMakeFiles/cmTC_1d880.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /modules/spack/packages/linux-ubuntu24.04-x86_64_v3/gcc-13.2.0/gcc-9.4.0-ctk4n3223pjnwfvyn6crmzo4isburta7/lib/gcc/x86_64-pc-linux-gnu/9.4.0/crtend.o /lib/x86_64-linux-gnu/crtn.o]
+        linker tool for 'CXX': /usr/bin/ld
+        collapse library dir [/modules/spack/packages/linux-ubuntu24.04-x86_64_v3/gcc-13.2.0/gcc-9.4.0-ctk4n3223pjnwfvyn6crmzo4isburta7/lib/gcc/x86_64-pc-linux-gnu/9.4.0] ==> [/modules/spack/packages/linux-ubuntu24.04-x86_64_v3/gcc-13.2.0/gcc-9.4.0-ctk4n3223pjnwfvyn6crmzo4isburta7/lib/gcc/x86_64-pc-linux-gnu/9.4.0]
+        collapse library dir [/modules/spack/packages/linux-ubuntu24.04-x86_64_v3/gcc-13.2.0/gcc-9.4.0-ctk4n3223pjnwfvyn6crmzo4isburta7/lib/gcc/x86_64-pc-linux-gnu/9.4.0/../../../../lib64] ==> [/modules/spack/packages/linux-ubuntu24.04-x86_64_v3/gcc-13.2.0/gcc-9.4.0-ctk4n3223pjnwfvyn6crmzo4isburta7/lib64]
+        collapse library dir [/lib/x86_64-linux-gnu] ==> [/lib/x86_64-linux-gnu]
+        collapse library dir [/lib/../lib64] ==> [/lib64]
+        collapse library dir [/usr/lib/x86_64-linux-gnu] ==> [/usr/lib/x86_64-linux-gnu]
+        collapse library dir [/usr/lib/../lib64] ==> [/usr/lib64]
+        collapse library dir [/modules/spack/packages/linux-ubuntu24.04-x86_64_v3/gcc-13.2.0/gcc-9.4.0-ctk4n3223pjnwfvyn6crmzo4isburta7/lib/gcc/x86_64-pc-linux-gnu/9.4.0/../../..] ==> [/modules/spack/packages/linux-ubuntu24.04-x86_64_v3/gcc-13.2.0/gcc-9.4.0-ctk4n3223pjnwfvyn6crmzo4isburta7/lib]
+        implicit libs: [stdc++;m;gcc_s;gcc;c;gcc_s;gcc]
+        implicit objs: [/lib/x86_64-linux-gnu/crt1.o;/lib/x86_64-linux-gnu/crti.o;/modules/spack/packages/linux-ubuntu24.04-x86_64_v3/gcc-13.2.0/gcc-9.4.0-ctk4n3223pjnwfvyn6crmzo4isburta7/lib/gcc/x86_64-pc-linux-gnu/9.4.0/crtbegin.o;/modules/spack/packages/linux-ubuntu24.04-x86_64_v3/gcc-13.2.0/gcc-9.4.0-ctk4n3223pjnwfvyn6crmzo4isburta7/lib/gcc/x86_64-pc-linux-gnu/9.4.0/crtend.o;/lib/x86_64-linux-gnu/crtn.o]
+        implicit dirs: [/modules/spack/packages/linux-ubuntu24.04-x86_64_v3/gcc-13.2.0/gcc-9.4.0-ctk4n3223pjnwfvyn6crmzo4isburta7/lib/gcc/x86_64-pc-linux-gnu/9.4.0;/modules/spack/packages/linux-ubuntu24.04-x86_64_v3/gcc-13.2.0/gcc-9.4.0-ctk4n3223pjnwfvyn6crmzo4isburta7/lib64;/lib/x86_64-linux-gnu;/lib64;/usr/lib/x86_64-linux-gnu;/usr/lib64;/modules/spack/packages/linux-ubuntu24.04-x86_64_v3/gcc-13.2.0/gcc-9.4.0-ctk4n3223pjnwfvyn6crmzo4isburta7/lib]
+        implicit fwks: []
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/work/pi_chuangg_umass_edu/xiaowen/env/partslip/share/cmake-3.31/Modules/Internal/CMakeDetermineLinkerId.cmake:40 (message)"
+      - "/work/pi_chuangg_umass_edu/xiaowen/env/partslip/share/cmake-3.31/Modules/CMakeDetermineCompilerABI.cmake:255 (cmake_determine_linker_id)"
+      - "/work/pi_chuangg_umass_edu/xiaowen/env/partslip/share/cmake-3.31/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:5 (project)"
+    message: |
+      Running the CXX compiler's linker: "/usr/bin/ld" "-v"
+      GNU ld (GNU Binutils for Ubuntu) 2.42
+...

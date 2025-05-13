@@ -1,0 +1,5 @@
+/work/pi_chuangg_umass_edu/xiaowen/PartSLIP2/partition/cut-pursuit/build/CMakeFiles/edit_cache.dir
+/work/pi_chuangg_umass_edu/xiaowen/PartSLIP2/partition/cut-pursuit/build/CMakeFiles/rebuild_cache.dir
+/work/pi_chuangg_umass_edu/xiaowen/PartSLIP2/partition/cut-pursuit/build/src/CMakeFiles/cp.dir
+/work/pi_chuangg_umass_edu/xiaowen/PartSLIP2/partition/cut-pursuit/build/src/CMakeFiles/edit_cache.dir
+/work/pi_chuangg_umass_edu/xiaowen/PartSLIP2/partition/cut-pursuit/build/src/CMakeFiles/rebuild_cache.dir

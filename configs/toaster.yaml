@@ -1,0 +1,26 @@
+object_name: "toaster"
+data_dir: "./data"
+object_category: "toaster"
+overwrite: False
+parts:
+  - "lever"
+  - "knob"
+
+render:
+  use_luisa: False
+  euler:
+    - 0
+    - 0
+    - 0
+
+segmentation:
+  seg_method: "SoM"
+  use_cc: True
+  input_type: "both"
+  cc_threshold: 0.06
+  label_filter_threshold: 500
+
+visual_prompting:
+  min_label_distance: 35
+  zoom_threshold: 5000
+  margin_factor: 0.3
