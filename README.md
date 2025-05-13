@@ -1,5 +1,23 @@
-# ArticulateAnymesh
+<p align="center">
+  <h1 align="center">Articulate Anymesh: Open-vocabulary 3D Articulated Objects Modeling</h1>
+  <p align="center">
+    arXiv 2025
+  </p>
+  <p align="center">
+    <a href="https://arxiv.org/abs/2502.02590">
+      <img src='https://img.shields.io/badge/Paper-PDF-red?style=flat&logo=arXiv&logoColor=red' alt='Paper PDF'>
+    </a>
+    <a href='https://articulateanymesh.github.io/' style='padding-left: 0.5rem;'>
+      <img src='https://img.shields.io/badge/Project-Page-blue?style=flat&logo=Google%20chrome&logoColor=blue' alt='Project Page'>
+    </a>
+  </p>
+</p>
 
+we propose Articulate AnyMesh, an automated framework that is able to convert any rigid 3D mesh into its articulated counterpart in an open-vocabulary manner.
+
+<p align="center">
+    <img src="asset/pipeline.png" alt="Logo" width="190%">
+</p>
 
 ## Installation
 #### Install Genesis
@@ -61,7 +79,7 @@ We also thank Zlat and Artem P for providing the high-quality 3D models we used 
 
 If you find this codebase/paper useful for your research, please consider citing:
 
-```bash
+```bibtex
 @article{qiu2025articulate,
     title={Articulate AnyMesh: Open-vocabulary 3D Articulated Objects Modeling}, 
     author={Qiu, Xiaowen and Yang, Jincheng and Wang, Yian and Chen, Zhehuan and Wang, Yufei and Wang, Tsun-Hsuan and Xian, Zhou and Gan, Chuang},
