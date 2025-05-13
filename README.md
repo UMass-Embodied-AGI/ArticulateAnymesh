@@ -1,8 +1,5 @@
 <p align="center">
-  <h1 align="center">Articulate Anymesh: Open-vocabulary 3D Articulated Objects Modeling</h1>
-  <p align="center">
-    arXiv 2025
-  </p>
+  <h1 align="center">Articulate Anymesh: Open-Vocabulary 3D Articulated Objects Modeling</h1>
   <p align="center">
     <a href="https://arxiv.org/abs/2502.02590">
       <img src='https://img.shields.io/badge/Paper-PDF-red?style=flat&logo=arXiv&logoColor=red' alt='Paper PDF'>
